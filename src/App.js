@@ -5,7 +5,7 @@ import ErrorPage from './Pages/ErrorPage';
 import TeamPage from './Pages/TeamPage';
 import EventsPage from './Pages/EventsPage';
 import Navbar from './Components/Navbar';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const router = createBrowserRouter([
   {
