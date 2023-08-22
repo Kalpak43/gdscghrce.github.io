@@ -1,7 +1,7 @@
 {
   "name": "gdscghrce-site",
   "version": "0.1.0",
-  "homepage": "hhttps://kalpak43.github.io/gdscghrce.github.io/",
+  "homepage": "hhttps://gdscghrce.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
