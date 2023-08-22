@@ -1,10 +1,14 @@
+import Hero from "../Components/Hero"
+import Lead from "../Components/Lead"
+import Events from "../Components/Events"
+
 const HomePage = () => {
 
     return(
         <div>
-            Home<br/>
-            <a href="/team">Team</a><br/>
-            <a href="/events">Events</a>
+            <Hero />
+            <Lead />
+            <Events />
         </div>
     )
 }
