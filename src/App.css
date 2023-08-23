@@ -22,6 +22,9 @@
   --lead-bg : #256de0;
   --events-bg : #fcba04;
   --contact-bg : #0c8e4f;
+  --card-bg : #afb5cd;
+
+  --accordian-bg : #a2acd7;
 }
 
 .dark-theme {
@@ -36,8 +39,10 @@
   --hero-bg : #222;
   --lead-bg : #131313;
   --events-bg : #222;
-  --contact-bg : #131313;
+  --contact-bg : #131313; 
+  --card-bg : #25262a;
 
+  --accordian-bg : #34353c;
 }
 
 .App {
@@ -227,6 +232,29 @@ header nav ul li:hover {
 /* CONTACT SECTION */
 .Contact {
   background-color: var(--contact-bg);
+}
+
+/* TEAMS PAGE */
+
+.member-card {
+  background-color: var(--card-bg);
+}
+
+.Team .member-img {
+  max-height: 8rem;
+  aspect-ratio: 1/1;
+}
+
+.Team .member-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* ABOUT SECTION */
+.que {
+  background-color: var(--accordian-bg);
 }
 
 /* FOOTER SECTION */

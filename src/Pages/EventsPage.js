@@ -1,7 +1,7 @@
 const EventsPage = () => {
 
     return (
-        <div>
+        <div className="EventsPage min-h-screen">
             Events
         </div>
     )

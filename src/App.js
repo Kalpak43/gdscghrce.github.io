@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./Components/Footer";
+import AboutPage from "./Pages/AboutPage";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/events",
     element: <EventsPage />,
+  },
+  {
+    path: "/about",
+    element: <AboutPage />,
   },
 ]);
 
