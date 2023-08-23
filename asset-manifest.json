@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9035e9fa.css",
-    "main.js": "/static/js/main.f83f5bb6.js",
+    "main.css": "/static/css/main.1130a3e0.css",
+    "main.js": "/static/js/main.6ef29792.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
+    "static/media/AmanTiwari.png": "/static/media/AmanTiwari.0f574e6aa7aebd7dd61f.png",
+    "static/media/Upcoming_evens.jpg": "/static/media/Upcoming_evens.ceecda304d24a86e6844.jpg",
     "index.html": "/index.html",
-    "main.9035e9fa.css.map": "/static/css/main.9035e9fa.css.map",
-    "main.f83f5bb6.js.map": "/static/js/main.f83f5bb6.js.map",
+    "main.1130a3e0.css.map": "/static/css/main.1130a3e0.css.map",
+    "main.6ef29792.js.map": "/static/js/main.6ef29792.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9035e9fa.css",
-    "static/js/main.f83f5bb6.js"
+    "static/css/main.1130a3e0.css",
+    "static/js/main.6ef29792.js"
   ]
 }
