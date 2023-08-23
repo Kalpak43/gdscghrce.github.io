@@ -21,7 +21,7 @@ const UpEvent = () => {
       </div>
       <p className="mt-4 text-center">
         <a
-          href="/team"
+          href="/events#past"
           className="py-1 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 border-2 border-blue-500 sm:w-fit hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
         >
           Past Events

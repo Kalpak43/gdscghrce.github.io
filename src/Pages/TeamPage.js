@@ -7,7 +7,7 @@ const TeamPage = () => {
     return (
       <div class="member-card w-5/6 mx-auto my-10 bg-white rounded-lg shadow-md p-5">
         <div className="member-img rounded-full mx-auto border-2">
-          <img src={leadImg} className="rounded-full" />
+          <img src={x.img} className="rounded-full" />
         </div>
         <h2 class="text-center text-2xl font-semibold mt-3">{x.name}</h2>
         <p class="text-center mt-1">{x.position}</p>
