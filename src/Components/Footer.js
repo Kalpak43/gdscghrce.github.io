@@ -49,11 +49,11 @@ const Footer = () => {
                 <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
                   Useful Links
                 </span>
-                <ul class="list-unstyled">
+                <ul class="list-unstyled text-blue-400">
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation?ref=njs-profile"
+                      href="/about"
                     >
                       About Us
                     </a>
@@ -61,25 +61,17 @@ const Footer = () => {
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com?ref=njs-profile"
+                      href="/team"
                     >
-                      Blog
+                      Team
                     </a>
                   </li>
                   <li>
                     <a
                       class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial?ref=njs-profile"
+                      href="/events"
                     >
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
-                    >
-                      Free Products
+                      Events
                     </a>
                   </li>
                 </ul>
