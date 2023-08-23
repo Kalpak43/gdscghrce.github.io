@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.656b1e2e.css",
-    "main.js": "/static/js/main.22000ee5.js",
+    "main.css": "/static/css/main.1c201c18.css",
+    "main.js": "/static/js/main.e2af5b17.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/AmanTiwari.png": "/static/media/AmanTiwari.0f574e6aa7aebd7dd61f.png",
     "static/media/Upcoming_evens.jpg": "/static/media/Upcoming_evens.ceecda304d24a86e6844.jpg",
+    "static/media/WebwithDSC.webp": "/static/media/WebwithDSC.d30e2a658a9386e69118.webp",
+    "static/media/composecamp.webp": "/static/media/composecamp.e90605a6fd59310b5060.webp",
+    "static/media/GDSC_WOW.webp": "/static/media/GDSC_WOW.8ac955f7107bf5b50a9e.webp",
     "index.html": "/index.html",
-    "main.656b1e2e.css.map": "/static/css/main.656b1e2e.css.map",
-    "main.22000ee5.js.map": "/static/js/main.22000ee5.js.map",
+    "main.1c201c18.css.map": "/static/css/main.1c201c18.css.map",
+    "main.e2af5b17.js.map": "/static/js/main.e2af5b17.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.656b1e2e.css",
-    "static/js/main.22000ee5.js"
+    "static/css/main.1c201c18.css",
+    "static/js/main.e2af5b17.js"
   ]
 }
