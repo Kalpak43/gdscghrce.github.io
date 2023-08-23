@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="Hero md:grid md:grid-cols-2 flex items-center justify-evenly content-center flex-wrap">
+    <div className="Hero md:grid md:grid-cols-2 flex items-center justify-evenly content-center flex-wrap z-30">
       <span
         className="logo-img flex flex-col justify-center items-center text-center"
         data-aos="zoom-in"

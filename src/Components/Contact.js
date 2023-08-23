@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="Contact">
+    <div className="Contact z-0">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           className="events-wave"

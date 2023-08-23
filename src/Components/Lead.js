@@ -3,7 +3,7 @@ import leadImg from "../Images/AmanTiwari.png"
 
 const Lead = () => {
   return (
-    <div className="Lead" data-aos="fade-down">
+    <div className="Lead z-20" data-aos="fade-down">
       <span className="">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path

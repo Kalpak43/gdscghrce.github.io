@@ -14,7 +14,7 @@ const Navbar = (props) => {
   // }, [darkMode]);
 
   return (
-    <header className="border-b-2 sticky top-0 w-full">
+    <header className="border-b-2 sticky top-0 w-full shadow-lg">
       <div className="flex justify-between items-center md:mx-4 relative">
         <div className="md:hidden right-full mx-2">
           <input id="menu-toggle" type="checkbox" />

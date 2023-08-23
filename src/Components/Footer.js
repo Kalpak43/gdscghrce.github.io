@@ -2,7 +2,7 @@ import { FaLinkedin, FaTwitter, FaYoutube, FaDiscord, FaInstagram } from "react-
 
 const Footer = () => {
   return (
-    <div className="Footer p-4">
+    <div className="Footer p-4 border-t-2 border-blue-300">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap text-left lg:text-left">
           <div class="w-full lg:w-6/12 px-4">
@@ -33,6 +33,13 @@ const Footer = () => {
                 type="button"
               >
                 <FaYoutube className="text-xl text-red-600" />
+              </a>
+              <a
+                href="https://www.instagram.com/gdscghrce/"
+                class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                type="button"
+              >
+                <FaInstagram className="text-xl text-pink-500" />
               </a>
               <a
                 href="/"

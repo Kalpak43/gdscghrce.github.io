@@ -1,7 +1,7 @@
 import event_img from "../Images/Upcoming_evens.jpg";
 const UpEvent = () => {
   return (
-    <div className="Events" data-aos="fade-down">
+    <div className="Events z-10" data-aos="fade-down">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           className="lead-wave"

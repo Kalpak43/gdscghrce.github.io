@@ -51,7 +51,7 @@ const members = [
     },
     {
         name : "Kalpak Goshikwar",
-        position : "Web Dev Lead",
+        position : "Web Development Lead",
         linkedin : "https://www.linkedin.com/in/harshschaudhari/"
     },
     {
