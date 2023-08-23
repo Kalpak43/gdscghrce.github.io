@@ -1,4 +1,5 @@
 import { FaLinkedin } from "react-icons/fa6";
+import leadImg from "../Images/AmanTiwari.png"
 
 const Lead = () => {
   return (
@@ -13,11 +14,11 @@ const Lead = () => {
           ></path>
         </svg>
       </span>
-      <h1 className="text-3xl text-center font-bold mb-9">Our Chapter Lead</h1>
+      <h1 className="text-4xl text-center font-extrabold mb-9">Our Chapter Lead</h1>
       <div className="md:grid md:grid-cols-2 justify-items-center flex items-center justify-evenly flex-wrap">
         <div className="lead-img">
           <img
-            src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+            src={leadImg}
             alt="Aman Brijbhushan Tiwari"
           />
         </div>
@@ -33,7 +34,7 @@ const Lead = () => {
             </a>
           </p>
           <p className="my-2">
-            <a href="/team" className="border-2 border-green-700 w-fit px-2 rounded-sm text-xl hover:bg-green-700 md:m-0 m-auto">Our Team</a>
+            <a href="/team" className="py-1 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 border-2 border-yellow-500 sm:w-fit hover:bg-yellow-500 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Our Team</a>
           </p>
         </div>
       </div>

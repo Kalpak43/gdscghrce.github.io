@@ -1,6 +1,7 @@
+import Contact from "../Components/Contact"
 import Hero from "../Components/Hero"
 import Lead from "../Components/Lead"
-import Events from "../Components/Events"
+import UpEvent from "../Components/UpEvent"
 
 const HomePage = () => {
 
@@ -8,7 +9,8 @@ const HomePage = () => {
         <div>
             <Hero />
             <Lead />
-            <Events />
+            <UpEvent />
+            <Contact />
         </div>
     )
 }

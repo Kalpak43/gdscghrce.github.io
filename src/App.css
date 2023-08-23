@@ -1,3 +1,7 @@
+* {
+  transition: all 0.3s ease-in-out;
+}
+
 :root {
   --google-blue : #4285F4;
   --google-red : #DB4437;
@@ -16,6 +20,8 @@
 
   --hero-bg : #a8190c;
   --lead-bg : #256de0;
+  --events-bg : #fcba04;
+  --contact-bg : #0c8e4f;
 }
 
 .dark-theme {
@@ -29,6 +35,8 @@
 
   --hero-bg : #222;
   --lead-bg : #131313;
+  --events-bg : #222;
+  --contact-bg : #131313;
 
 }
 
@@ -204,4 +212,24 @@ header nav ul li:hover {
   .lead-info {
     text-align: center;
   }
+}
+
+/* EVENTS SECTION */
+.Events {
+  background-color: var(--events-bg);
+  color: #fff;
+}
+
+.events-wave {
+  fill: var(--events-bg);
+}
+
+/* CONTACT SECTION */
+.Contact {
+  background-color: var(--contact-bg);
+}
+
+/* FOOTER SECTION */
+.Footer {
+  background-color: var(--bg-color);
 }
