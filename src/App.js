@@ -10,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./Components/Footer";
 import AboutPage from "./Pages/AboutPage";
+import { FaSun, FaMoon } from "react-icons/fa6";
 
 const router = createBrowserRouter([
   {
@@ -32,16 +33,23 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+
+  const storedDarkMode = localStorage.getItem("DARK_MODE");
+  const [darkMode, setDarkMode] = useState(storedDarkMode === 'true');
+
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    localStorage.setItem("DARK_MODE", darkMode);
+  }, [darkMode]);
+
+  useEffect(() => {
+    AOS.init({ duration: 1500, once: true });
   }, []);
 
-  const [darkMode, setDarkMode] = useState(false);
-
   return (
-    <div className={`App ${darkMode ? "dark-theme" : "light-theme"}`}>
-      <Navbar darkMode={darkMode} setDarkMode={() => setDarkMode(!darkMode)} />
+    <div className={`App relative ${darkMode ? "dark-theme" : "light-theme"}`}>
+      <Navbar darkMode={darkMode} />
       <RouterProvider router={router} />
+      <button className="switch border-2 h-12 aspect-square rounded-full fixed bottom-0 right-0 flex justify-center items-center m-4" data-aos="fade-left" onClick={() => setDarkMode(!darkMode)}>{darkMode ? <FaMoon className="text-2xl" /> : <FaSun className="text-2xl" />}</button>
       <Footer />
     </div>
   );

@@ -3,19 +3,19 @@ import leadImg from "../Images/AmanTiwari.png"
 
 const Lead = () => {
   return (
-    <div className="Lead z-20" data-aos="fade-down">
+    <div className="Lead z-20">
       <span className="">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
-            className="hero-wave h-20"
+            className="about-wave h-20"
             fill="#a8190c"
-            fill-opacity="1"
+            fillOpacity="1"
             d="M0,192L34.3,208C68.6,224,137,256,206,234.7C274.3,213,343,139,411,101.3C480,64,549,64,617,101.3C685.7,139,754,213,823,224C891.4,235,960,181,1029,144C1097.1,107,1166,85,1234,112C1302.9,139,1371,213,1406,250.7L1440,288L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
           ></path>
         </svg>
       </span>
-      <h1 className="text-4xl text-center font-extrabold mb-9">Our Chapter Lead</h1>
-      <div className="md:grid md:grid-cols-2 justify-items-center flex items-center justify-evenly flex-wrap">
+      <h1 className="text-4xl text-center font-extrabold mb-9" data-aos="fade-down">Our Chapter Lead</h1>
+      <div className="md:grid md:grid-cols-2 justify-items-center flex items-center justify-evenly flex-wrap" data-aos="fade-down">
         <div className="lead-img">
           <img
             src={leadImg}

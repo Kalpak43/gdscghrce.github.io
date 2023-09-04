@@ -1,34 +1,24 @@
-import { FaMoon, FaSun } from "react-icons/fa6";
+export default function Navbar() {
+  const handleNav = () => {
+    const checkBox = document.getElementById("check");
+    const opt1 = document.getElementById("opt1");
+    const ul = document.getElementById("ul");
 
-const Navbar = (props) => {
-  // useEffect(() => {
-  //   localStorage.setItem('darkMode', darkMode);
-  //   const App = document.getElementById("App");
-
-  //   if (darkMode) {
-  //     App.classList.add("dark-theme");
-  //   } else {
-  //     App.classList.add("light-theme");
-  //     App.classList.remove("dark-theme");
-  //   }
-  // }, [darkMode]);
+    if (checkBox.checked) {
+      ul.style.opacity = "1"
+      ul.style.transform = "translateX(0)"
+      opt1.style.height = "100vh";
+    } else {
+      ul.style.opacity = "0"
+      ul.style.transform = "translateX(50px)"
+      opt1.style.height = "0";
+    }
+  };
 
   return (
-    <header className="border-b-2 sticky top-0 w-full shadow-lg">
-      <div className="flex justify-between items-center md:mx-4 relative">
-        <div className="md:hidden right-full mx-2">
-          <input id="menu-toggle" type="checkbox" />
-          <label class="menu-button-container" for="menu-toggle">
-            <div
-              class="menu-button"
-              onClick={() => {
-                const nav = document.getElementById("nav-opt");
-                nav.classList.toggle("right-full");
-              }}
-            ></div>
-          </label>
-        </div>
-        <span className="text-center">
+    <header className="fixed top-0 w-full" data-aos="zoom-in">
+      <div className="flex justify-between items-center md:mx-4">
+        <span className="logo w-fit z-50">
           <a href="/">
             <svg
               className="h-16"
@@ -61,43 +51,30 @@ const Navbar = (props) => {
             </svg>
           </a>
         </span>
-        <nav className="nav-opt w-full right-full right-0" id="nav-opt">
-          <ul className="md:flex justify-end">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/about">About Us</a>
-            </li>
-            <li>
-              <a href="/team">Team</a>
-            </li>
-            <li>
-              <a href="/events">Events</a>
-            </li>
-            <li>
-              <button
-                className="text-2xl"
-                onClick={() => {
-                  props.setDarkMode();
-                }}
-              >
-                {props.darkMode ? <FaSun /> : <FaMoon />}
-              </button>
-            </li>
+
+        <div className="pos navB" id="navB">
+          <label htmlFor="check">
+            <input type="checkbox" id="check" onClick={handleNav} />
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+      </div>
+      <div
+        className="opt absolute top-0 left-0 h-full w-full flex justify-center items-center bg-transparent"
+        id="opt"
+      >
+        <div className="bg-gray-500 w-full absolute top-0 left-0 flex justify-center items-center" id="opt1">
+          <ul id="ul" data-aos="fade-down">
+            <li className="text-4xl m-4"><a href="/">Home</a></li>
+            <li className="text-4xl m-4"><a href="/team">Team</a></li>
+            <li className="text-4xl m-4"><a href="/about">About</a></li>
+            <li className="text-4xl m-4"><a href="/">Join Us</a></li>
+
           </ul>
-        </nav>
-        <button
-          className="md:hidden text-2xl mx-2"
-          onClick={() => {
-            props.setDarkMode();
-          }}
-        >
-          {props.darkMode ? <FaSun /> : <FaMoon />}
-        </button>
+        </div>
       </div>
     </header>
   );
-};
-
-export default Navbar;
+}

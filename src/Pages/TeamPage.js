@@ -5,7 +5,7 @@ import members from "../members";
 const TeamPage = () => {
   const memberCard = members.map((x) => {
     return (
-      <div class="member-card w-5/6 mx-auto my-10 bg-white rounded-lg shadow-md p-5">
+      <div class="member-card w-5/6 mx-auto my-10 bg-white rounded-lg shadow-md p-5" data-aos="fade-down">
         <div className="member-img rounded-full mx-auto border-2">
           <img src={x.img} className="rounded-full" />
         </div>
@@ -23,8 +23,8 @@ const TeamPage = () => {
   return (
     <div className="Team min-h-screen">
       <h1 className="text-4xl text-center font-bold">Our Team</h1>
-      <div className="md:grid grid-cols-3 place-items-center flex justify-center md:px-20 w-full">
-        <div class="member-card col-start-2 w-5/6 mx-auto my-10 bg-white rounded-lg shadow-md p-5">
+      <div className="md:grid grid-cols-3 place-items-center flex justify-center md:px-20 w-full" >
+        <div class="member-card col-start-2 w-5/6 mx-auto my-10 bg-white rounded-lg shadow-md p-5" data-aos="fade-down">
           <div className="member-img rounded-full mx-auto border-2">
             <img src={leadImg} className="rounded-full" />
           </div>
@@ -45,6 +45,7 @@ const TeamPage = () => {
       <div className="md:grid grid-cols-3 place-items-center flex flex-wrap justify-center md:px-20 w-full">
         {memberCard}
       </div>
+      <div className="bg"></div>
     </div>
   );
 };

@@ -3,63 +3,63 @@ import { FaLinkedin, FaTwitter, FaYoutube, FaDiscord, FaInstagram } from "react-
 const Footer = () => {
   return (
     <div className="Footer p-4 border-t-2 border-blue-300">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap text-left lg:text-left">
-          <div class="w-full lg:w-6/12 px-4">
-            <h4 class="text-3xl fonat-semibold text-blueGray-700">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap text-left lg:text-left">
+          <div className="w-full lg:w-6/12 px-4">
+            <h4 className="text-3xl fonat-semibold text-blueGray-700">
               Let's keep in touch!
             </h4>
-            <h5 class="text-lg mt-0 mb-2">
+            <h5 className="text-lg mt-0 mb-2">
               Find us on any of these platforms.
             </h5>
-            <div class="mt-6 lg:mb-0 mb-6 flex">
+            <div className="mt-6 lg:mb-0 mb-6 flex">
               <a
                 href="https://twitter.com/gdscghrce/"
-                class="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <FaTwitter className="text-xl text-blue-400"/>
               </a>
               <a
                 href="https://www.linkedin.com/company/gdsc-ghrce/"
-                class="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <FaLinkedin className="text-xl text-blue-600" />
               </a>
               <a
                 href="https://www.youtube.com/@gdscghrce5152"
-                class="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <FaYoutube className="text-xl text-red-600" />
               </a>
               <a
                 href="https://www.instagram.com/gdscghrce/"
-                class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <FaInstagram className="text-xl text-pink-500" />
               </a>
               <a
                 href="/"
-                class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <FaDiscord className="text-xl text-purple-500" />
               </a>
             </div>
           </div>
-          <div class="w-full lg:w-6/12 px-4">
-            <div class="flex flex-wrap items-top mb-6">
-              <div class="w-full lg:w-4/12 px-4 ml-auto">
-                <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+          <div className="w-full lg:w-6/12 px-4">
+            <div className="flex flex-wrap items-top mb-6">
+              <div className="w-full lg:w-4/12 px-4 ml-auto">
+                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
                   Useful Links
                 </span>
-                <ul class="list-unstyled text-blue-400">
+                <ul className="list-unstyled text-blue-400">
                   <li>
                     <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       href="/about"
                     >
                       About Us
@@ -67,7 +67,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       href="/team"
                     >
                       Team
@@ -75,7 +75,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       href="/events"
                     >
                       Events
@@ -86,9 +86,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr class="my-6 border-blue-300" />
-        <div class="flex flex-wrap items-center md:justify-between justify-center">
-          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <hr className="my-6 border-blue-300" />
+        <div className="flex flex-wrap items-center md:justify-between justify-center">
+          <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <span className="flex w-full justify-center">
               <a href="/">
                 <svg
@@ -122,11 +122,11 @@ const Footer = () => {
                 </svg>
               </a>
             </span>
-            <div class="text-sm text-blueGray-500 font-semibold py-1">
+            <div className="text-sm text-blueGray-500 font-semibold py-1">
               Copyright © <span id="get-current-year">2023 </span>
               <a
                 href="https://www.creative-tim.com?ref=njs-profile"
-                class="text-blueGray-500 hover:text-blueGray-800"
+                className="text-blueGray-500 hover:text-blueGray-800"
               >
                 GDSC GHRCE
               </a>
