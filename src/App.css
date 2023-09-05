@@ -387,7 +387,6 @@ header {
 
 .lead, .management-team, .web-team, .aiml-team, .technical-team, .flutter-team, .design-team, .dsa-team {
   padding-inline: 2rem;
-  border-right: 2px solid var(--team-bg-font);
 }
 
 /* LEAD SECTION */

@@ -41,13 +41,13 @@ const Footer = () => {
               >
                 <FaInstagram className="text-xl text-pink-500" />
               </a>
-              <a
+              {/* <a
                 href="/"
                 className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <FaDiscord className="text-xl text-purple-500" />
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="w-full lg:w-6/12 px-4">
