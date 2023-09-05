@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0663e3b.css",
-    "main.js": "/static/js/main.750d7f0f.js",
+    "main.css": "/static/css/main.2918c142.css",
+    "main.js": "/static/js/main.6705e346.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/AmanTiwari.png": "/static/media/AmanTiwari.0f574e6aa7aebd7dd61f.png",
     "static/media/Upcoming_evens.jpg": "/static/media/Upcoming_evens.ceecda304d24a86e6844.jpg",
@@ -15,12 +15,12 @@
     "static/media/google-tensorflow-icon.svg": "/static/media/google-tensorflow-icon.7a27db043183a5d3571e338ab500f742.svg",
     "static/media/flutter_logo.svg": "/static/media/flutter_logo.62e03f4abb59372a3597687dbeaa9e1c.svg",
     "index.html": "/index.html",
-    "main.c0663e3b.css.map": "/static/css/main.c0663e3b.css.map",
-    "main.750d7f0f.js.map": "/static/js/main.750d7f0f.js.map",
+    "main.2918c142.css.map": "/static/css/main.2918c142.css.map",
+    "main.6705e346.js.map": "/static/js/main.6705e346.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0663e3b.css",
-    "static/js/main.750d7f0f.js"
+    "static/css/main.2918c142.css",
+    "static/js/main.6705e346.js"
   ]
 }
