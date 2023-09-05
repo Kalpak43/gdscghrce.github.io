@@ -3,7 +3,7 @@ import advisor2 from "../Images/pranay-saraf.webp"
 
 const About = () => {
   return (
-    <div className="About bg-red-500 md:px-52 px-5 py-4 text-justify text-gray-100">
+    <div className="About bg-red-500 md:px-52 px-5 py-4 text-justify text-gray-100" id="about">
       <h1 className="text-4xl text-center font-extrabold mb-9" data-aos="zoom-in">About Us</h1>
       <ul>
         <li data-aos="fade-in">
@@ -31,7 +31,7 @@ const About = () => {
       <br />
       <h1 className="text-3xl text-center font-bold mb-9">Chapter Advisors</h1>
       <div className="flex flex-wrap justify-evenly" >
-        <div className="advisor-card max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-2" data-aos="fade-right">
+        <div className="advisor-card max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-2">
           <div className="h-full flex flex-col justify-center items-center pb-2">
             <img
               className="w-24 h-24 mb-3 rounded-full shadow-lg"
@@ -46,7 +46,7 @@ const About = () => {
             </span>
           </div>
         </div>
-        <div className="advisor-card max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-2" data-aos="fade-left">
+        <div className="advisor-card max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-2">
           <div className="h-full flex flex-col justify-center items-center pb-2">
             <img
               className="w-24 h-24 mb-3 rounded-full shadow-lg"

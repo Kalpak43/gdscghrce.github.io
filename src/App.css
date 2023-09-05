@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 :root {
   --google-blue : #4285F4;
   --google-red : #DB4437;
@@ -11,15 +16,16 @@
   --link-color : #2a2525;
   --dsc-logo-red : #DB4437;
   --dsc-logo-blue : #4285F4;
-  --dsc-logo-yellow : #F4B400;
+  --dsc-logo-yellow : #f5b400;
   --dsc-logo-green : #0F9D58;
 
   --hero-bg : #e4e4e4;
   --hero-blur : #00000083;
-  --about-bg : #d03a2c;
-  --lead-bg : #256de0;
-  --events-bg : #fcba04;
-  --contact-bg : #0c8e4f;
+  --about-bg : rgb(211, 88, 76);
+  --team-bg-font : #0d0d0d69;
+  --lead-bg : rgb(178, 201, 239);
+  --events-bg : #f4c33c;
+  --contact-bg : #10b264;
   --card-bg : #afb5cd;
   
   --accordian-bg : #a2acd7;
@@ -37,6 +43,7 @@
   --hero-bg : #131313;
   --hero-blur : #00000083;
   --about-bg : #222;
+  --team-bg-font : #efefef69;
   --lead-bg : #131313;
   --events-bg : #222;
   --contact-bg : #131313; 
@@ -101,13 +108,13 @@ header {
   -webkit-mask: var(--_m);
   mask: var(--_m);
   --_g: #0000 calc(99% - var(--border)),
-    var(--dsc-logo-red) calc(100% - var(--border)) 99%, #0000;
+    var(--google-red) calc(100% - var(--border)) 99%, #0000;
   --_h: #0000 calc(99% - var(--border)),
-    var(--dsc-logo-blue) calc(100% - var(--border)) 99%, #0000;
+    var(--google-blue) calc(100% - var(--border)) 99%, #0000;
   --_i: #0000 calc(99% - var(--border)),
-    var(--dsc-logo-green) calc(100% - var(--border)) 99%, #0000;
+    var(--google-green) calc(100% - var(--border)) 99%, #0000;
   --_j: #0000 calc(99% - var(--border)),
-    var(--dsc-logo-yellow) calc(100% - var(--border)) 99%, #0000;
+    var(--google-yellow) calc(100% - var(--border)) 99%, #0000;
   --_r: 100% 100% at;
 
   background: radial-gradient(var(--_r) 0 0, var(--_g)) calc(100% + var(--_s))
@@ -190,7 +197,7 @@ header {
 }
 
 #opt1, #opt2 {
-  height: 0;
+  width: 0;
   transition: all 0.5s ease-in-out;
 }
 
@@ -325,11 +332,6 @@ header {
 /* ABOUT SECTION */
 .About {
   background-color: var(--about-bg);
-  /* background-image: url("./Images/Untitled\ design.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  backdrop-filter: sepia(80%); */
 }
 
 .advisor-card {
@@ -339,6 +341,53 @@ header {
 
 .about-wave {
   fill: var(--about-bg);
+}
+
+/* TEAM SECTION */
+.team {
+  background-color: var(--lead-bg);
+}
+
+.team h1 {
+  color: var(--team-bg-font);
+  text-transform: uppercase;
+}
+
+.team .card {
+  border-radius: 0.5rem;
+  min-height: 250px;
+  height: fit-content;
+  aspect-ratio: 4/3;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px 8px var(--default-font-color);
+
+  cursor: pointer;
+}
+
+.team-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: var(--team-bg-font);
+  letter-spacing: 2rem;
+}
+
+.lead, .management-team, .web-team, .aiml-team, .technical-team, .flutter-team, .design-team, .dsa-team {
+  padding-inline: 2rem;
+  border-right: 2px solid var(--team-bg-font);
 }
 
 /* LEAD SECTION */
@@ -393,7 +442,7 @@ header {
 }
 
 .member-img {
-  max-height: 8rem;
+  max-height: 7rem;
   aspect-ratio: 1/1;
 }
 

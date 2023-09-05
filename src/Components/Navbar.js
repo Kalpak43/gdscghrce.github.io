@@ -5,15 +5,27 @@ export default function Navbar() {
     const ul = document.getElementById("ul");
 
     if (checkBox.checked) {
-      ul.style.opacity = "1"
-      ul.style.transform = "translateX(0)"
-      opt1.style.height = "100vh";
+      ul.style.opacity = "1";
+      ul.style.transform = "translateX(0)";
+      opt1.style.width = "100vw";
     } else {
-      ul.style.opacity = "0"
-      ul.style.transform = "translateX(50px)"
-      opt1.style.height = "0";
+      ul.style.opacity = "0";
+      ul.style.transform = "translateX(50px)";
+      opt1.style.width = "0";
     }
   };
+
+  const hideOnClick = () => {
+    const checkBox = document.getElementById("check");
+    const opt1 = document.getElementById("opt1");
+    const ul = document.getElementById("ul");
+
+    checkBox.checked = false
+    ul.style.opacity = "0";
+    ul.style.transform = "translateX(50px)";
+    opt1.style.width = "0";
+  }
+
 
   return (
     <header className="fixed top-0 w-full" data-aos="zoom-in">
@@ -62,16 +74,29 @@ export default function Navbar() {
         </div>
       </div>
       <div
-        className="opt absolute top-0 left-0 h-full w-full flex justify-center items-center bg-transparent"
+        className="opt fixed top-0 left-0 h-full w-full flex justify-center items-center bg-transparent"
         id="opt"
       >
-        <div className="bg-gray-500 w-full absolute top-0 left-0 flex justify-center items-center" id="opt1">
-          <ul id="ul" data-aos="fade-down">
-            <li className="text-4xl m-4"><a href="/">Home</a></li>
-            <li className="text-4xl m-4"><a href="/team">Team</a></li>
-            <li className="text-4xl m-4"><a href="/about">About</a></li>
-            <li className="text-4xl m-4"><a href="/">Join Us</a></li>
-
+        <div
+          className="bg-gray-500 h-screen absolute top-0 right-0 flex justify-center items-center"
+          id="opt1"
+        >
+          <ul id="ul" className="text-center" onClick={hideOnClick}>
+            <li className="text-4xl m-4">
+              <a href="/">Home</a>
+            </li>
+            <li className="text-4xl m-4">
+              <a href="/#about">About</a>
+            </li>
+            <li className="text-4xl m-4">
+              <a href="/#team">Team</a>
+            </li>
+            <li className="text-4xl m-4">
+              <a href="/#event">Events</a>
+            </li>
+            <li className="text-4xl m-4">
+              <a href="https://gdsc.community.dev/gh-raisoni-college-of-engineering-nagpur/">Join Us</a>
+            </li>
           </ul>
         </div>
       </div>

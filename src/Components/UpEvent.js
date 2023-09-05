@@ -11,9 +11,10 @@ const UpEvent = () => {
         ></path>
       </svg>
       <h1 className="text-4xl text-center font-extrabold mb-9" data-aos="fade-down">
-        Upcoming Events
+        Events
       </h1>
       <h5 className="text-lg mt-0 mb-2 px-20 text-center" data-aos="fade-down">At GDSC, we organize a diverse range of events and activities to cater to the interests of our members. From workshops on cutting-edge technologies like machine learning, cloud computing, and mobile app development to hackathons that challenge your problem-solving abilities, we have something for everyone.</h5>
+      <h4 className="text-center text-xl underline">Recent Events</h4>
       <div className="flex w-full justify-center items-center p-6" data-aos="fade-down">
         <a href="https://gdsc.community.dev/events/details/developer-student-clubs-gh-raisoni-college-of-engineering-nagpur-presents-coreconfluence-empowering-visions/">
         <img src={event_img} width={400} alt="event" />
