@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.2918c142.css",
-    "main.js": "/static/js/main.6705e346.js",
+    "main.css": "/static/css/main.a0939748.css",
+    "main.js": "/static/js/main.e429c992.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
+    "static/media/Career-Hero001.svg": "/static/media/Career-Hero001.9c236b6eadb07918736bbaf55a3e7baf.svg",
     "static/media/AmanTiwari.png": "/static/media/AmanTiwari.0f574e6aa7aebd7dd61f.png",
+    "static/media/event3.jpeg": "/static/media/event3.4c6e7788b1f39bab4f80.jpeg",
+    "static/media/WhatsApp Image 2023-08-27 at 6.11.51 PM (1).jpeg": "/static/media/WhatsApp Image 2023-08-27 at 6.11.51 PM (1).afae5e294f04ccf89eeb.jpeg",
+    "static/media/eventBanner.jpg": "/static/media/eventBanner.a946e38d24909e6b1eb0.jpg",
+    "static/media/event1.jpeg": "/static/media/event1.c661ea57d259aa859ea0.jpeg",
+    "static/media/event2.jpg": "/static/media/event2.62da1f21c017857e09c3.jpg",
+    "static/media/team.jpeg": "/static/media/team.8cb5c555fba7b79ebe7d.jpeg",
     "static/media/Upcoming_evens.jpg": "/static/media/Upcoming_evens.ceecda304d24a86e6844.jpg",
     "static/media/google-cloud_logo.png": "/static/media/google-cloud_logo.e3c95f14d9c11b3802e9.png",
     "static/media/WebwithDSC.webp": "/static/media/WebwithDSC.d30e2a658a9386e69118.webp",
     "static/media/GCSJ_logo.webp": "/static/media/GCSJ_logo.1b293c93398776720ba6.webp",
     "static/media/firebase_logo.svg": "/static/media/firebase_logo.7840999a174fe3a49655ad334b6202b1.svg",
+    "static/media/ProductSans-Regular.woff": "/static/media/ProductSans-Regular.18c3428d2ec9ca2f0072.woff",
+    "static/media/ProductSans-Regular.woff2": "/static/media/ProductSans-Regular.9ccaabc5abc3920047b7.woff2",
     "static/media/nekita-chavhan.webp": "/static/media/nekita-chavhan.2474758133e683bc8cfe.webp",
     "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "static/media/android-studio.svg": "/static/media/android-studio.a113567d32c41dd646fcbba07584599b.svg",
     "static/media/google-tensorflow-icon.svg": "/static/media/google-tensorflow-icon.7a27db043183a5d3571e338ab500f742.svg",
     "static/media/flutter_logo.svg": "/static/media/flutter_logo.62e03f4abb59372a3597687dbeaa9e1c.svg",
     "index.html": "/index.html",
-    "main.2918c142.css.map": "/static/css/main.2918c142.css.map",
-    "main.6705e346.js.map": "/static/js/main.6705e346.js.map",
+    "main.a0939748.css.map": "/static/css/main.a0939748.css.map",
+    "main.e429c992.js.map": "/static/js/main.e429c992.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2918c142.css",
-    "static/js/main.6705e346.js"
+    "static/css/main.a0939748.css",
+    "static/js/main.e429c992.js"
   ]
 }
