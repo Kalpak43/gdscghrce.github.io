@@ -11,6 +11,7 @@ import "aos/dist/aos.css";
 import Footer from "./Components/Footer";
 import AboutPage from "./Pages/AboutPage";
 import { FaSun, FaMoon } from "react-icons/fa6";
+import ContactPage from "./Pages/ContactPage";
 
 const router = createBrowserRouter([
   {
@@ -23,8 +24,16 @@ const router = createBrowserRouter([
     element: <AboutPage />,
   },
   {
+    path: "/team",
+    element: <TeamPage />,
+  },
+  {
     path: "/events",
     element: <EventsPage />,
+  },
+  {
+    path: "/contactus",
+    element: <ContactPage />,
   },
 ]);
 
@@ -45,7 +54,7 @@ function App() {
     <div className={`App relative ${darkMode ? "dark-theme" : "light-theme"}`}>
       <Navbar darkMode={darkMode} />
       <RouterProvider router={router} />
-      <button className="switch border-2 h-12 aspect-square rounded-full fixed bottom-0 right-0 flex justify-center items-center m-4 mx-8" onClick={() => setDarkMode(!darkMode)}>{darkMode ? <FaMoon className="text-2xl" /> : <FaSun className="text-2xl" />}</button>
+      {/* <button className="switch border-2 h-12 aspect-square rounded-full fixed bottom-0 right-0 flex justify-center items-center m-4 mx-8" onClick={() => setDarkMode(!darkMode)}>{darkMode ? <FaMoon className="text-2xl" /> : <FaSun className="text-2xl" />}</button> */}
       <Footer />
     </div>
   );

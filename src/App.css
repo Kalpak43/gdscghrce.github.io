@@ -11,7 +11,7 @@ html {
 }
 
 .light-theme {
-  --bg-color : #e4e4e4;
+  --bg-color : #ffffff;
   --default-font-color : #000;
   --link-color : #2a2525;
   --dsc-logo-red : #DB4437;
@@ -19,16 +19,18 @@ html {
   --dsc-logo-yellow : #f5b400;
   --dsc-logo-green : #0F9D58;
 
-  --hero-bg : #e4e4e4;
+  --hero-bg : #f2f2f2;
   --hero-blur : #00000083;
-  --about-bg : rgb(211, 88, 76);
-  --team-bg-font : #0d0d0d69;
-  --lead-bg : rgb(178, 201, 239);
-  --events-bg : #f4c33c;
-  --contact-bg : #10b264;
+  --about-bg : #e57368;
+  --lead-bg : #76a7fa;
+  --events-bg : #fbcb43;
+  --contact-bg : #33b679;
   --card-bg : #afb5cd;
   
-  --accordian-bg : #a2acd7;
+  --accordian-bg : #ffffff;
+  --btn-text : #f2f2f2;
+
+  --badges-hover-text : #fff;
 }
 
 .dark-theme {
@@ -48,8 +50,10 @@ html {
   --events-bg : #222;
   --contact-bg : #131313; 
   --card-bg : #25262a;
-
+  
   --accordian-bg : #34353c;
+  --btn-text : #222222;
+  --badges-hover-text : #000;
 }
 
 .App {
@@ -185,6 +189,10 @@ header {
   transform: translate(-17px, -7px) rotatez(-45deg);
 }
 
+#opt1 {
+  background-color: var(--bg-color);
+}
+
 #opt1 ul {
   opacity: 0;
   transform: translateX(50px);
@@ -219,7 +227,7 @@ header {
   height: 100vh;
   --dot-bg: var(--hero-bg);
   --dot-color: var(--default-font-color);
-  --dot-size: 1px;
+  --dot-size: 1.5px;
   --dot-space: 22px;
 	background:
 		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
@@ -227,6 +235,66 @@ header {
 		var(--dot-color);
 
   transition: all 0.5s ease-in-out;
+}
+
+.blob{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  width: 60%; 
+  height: 60%;
+  animation: morph 7s linear infinite; 
+  transform-style: preserve-3d;
+  outline: 1px solid transparent;
+  will-change: border-radius;
+}
+
+.blob-1 {
+  background-color: #ea4335; 
+}
+.blob-2 {
+  background-color: #4285F4; 
+}
+.blob-3 {
+  background-color: #0F9D58;
+}
+.blob-4 {
+  background-color: #fbcb43;
+}
+
+@keyframes morph{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    opacity: .89;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
+
+.phone {
+  transition: all 0.5s ease-in-out;
+  transform: rotateY(-30deg) rotateX(15deg);
+}
+
+.phone:hover {
+  transform: rotateY(0deg) rotateX(0deg);
+}
+
+.float-phone {
+  transition: all 0.5s ease-in-out;
+}
+
+.float-phone:hover {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white; 
 }
 
 .orbit {
@@ -331,12 +399,15 @@ header {
 
 /* ABOUT SECTION */
 .About {
-  background-color: var(--about-bg);
+  background-color: transparent;
 }
 
-.advisor-card {
-  width: 300px;
-  aspect-ratio: 4/3;
+.about-btn {
+  background-color: var(--dsc-logo-blue);
+  color: var(--btn-text);
+  padding-inline: 0.6rem;
+  padding-block: 0.7rem;
+  border-radius: 0.2rem;
 }
 
 .about-wave {
@@ -345,17 +416,40 @@ header {
 
 /* TEAM SECTION */
 .team {
-  background-color: var(--lead-bg);
+  background-color: transparent;
 }
 
-.team h1 {
-  color: var(--team-bg-font);
-  text-transform: uppercase;
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #00000080;
+  z-index: 0;
 }
 
-.team .card {
-  border-radius: 0.5rem;
-  min-height: 250px;
+.Team .about-btn {
+  background-color: var(--dsc-logo-green);
+}
+
+.Team .team-header {
+  background-image: url(./Images/event/team.jpeg);
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  color: #fff;
+}
+
+@media screen and (max-width : 990px) {
+  .Team .team-header {
+    background-position: center center;
+  }
+}
+
+.mcard {
+  position: relative;
+
+  max-width: 90%;
+  min-height: 300px;
   height: fit-content;
   aspect-ratio: 4/3;
   z-index: 10;
@@ -365,10 +459,95 @@ header {
   flex-direction: column;
 
   background-color: var(--bg-color);
-  box-shadow: 4px 4px 8px var(--default-font-color);
+  border: 2px solid var(--dsc-logo-red);
 
   cursor: pointer;
 }
+
+
+.mcard::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 40px);
+  background-color: var(--bg-color);
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.mcard:hover::before {
+  transform: scaleY(0);
+}
+
+.mcard::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 20px;
+  height: calc(100% + 4px);
+  width: calc(100% - 40px);
+  background-color: var(--bg-color);
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+.mcard:hover::after {
+  transform: scaleX(0);
+}
+
+.mcard div{
+  position: relative;
+  z-index: 20;
+}
+
+.badges {
+  border: 2px solid black;
+  padding-block: 0.2rem;
+  padding-inline: 0.4rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  color: var(--default-font-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.badges:hover {
+  color: var(--badges-hover-text);
+}
+
+.badges-1, .type-1 .mcard {
+  border-color: var(--dsc-logo-red);
+}
+
+.badges-1:hover {
+  background-color: var(--dsc-logo-red);
+}
+
+.badges-2, .type-2 .mcard, .past-events .mcard {
+  border-color: var(--dsc-logo-blue);
+}
+
+.badges-2:hover {
+  background-color: var(--dsc-logo-blue);
+}
+
+
+.badges-3, .type-3 .mcard {
+  border-color: var(--dsc-logo-yellow);
+}
+.badges-3:hover {
+  background-color: var(--dsc-logo-yellow);
+}
+
+.badges-4, .type-4 .mcard {
+  border-color: var(--dsc-logo-green);
+}
+.badges-4:hover {
+  background-color: var(--dsc-logo-green);
+}
+
+
 
 .team-bg {
   position: absolute;
@@ -421,8 +600,22 @@ header {
 
 /* EVENTS SECTION */
 .Events {
-  background-color: var(--events-bg);
+  background-color: transparent;
+}
+
+.EventsPage .team-header {
+  background-image: url(./Images/event/eventBanner.jpg);
   color: #fff;
+}
+
+@media screen and (max-width : 990px) {
+  .EventsPage .team-header {
+    background-position: center top;
+  }
+}
+
+.Events .about-btn {
+  background-color: var(--dsc-logo-green);
 }
 
 .events-wave {
@@ -431,7 +624,8 @@ header {
 
 /* CONTACT SECTION */
 .Contact {
-  background-color: var(--contact-bg);
+  background-color: transparent;
+  color: var(--default-font-color);
 }
 
 /* TEAMS PAGE */
@@ -455,9 +649,154 @@ header {
 /* ABOUT SECTION */
 .que {
   background-color: var(--accordian-bg);
+  border: 1px solid black;
+  border-radius: 0.3rem;
 }
 
 /* FOOTER SECTION */
 .Footer {
   background-color: var(--bg-color);
+}
+
+
+
+
+
+
+
+.post-header {
+  border-radius: 9999px;
+  height: 80%;
+  aspect-ratio: 1/1;
+  background-color: #5ab6fc;
+  overflow: hidden;
+  border: 2px solid black;
+  position: relative;
+}
+
+@media screen and (max-width : 990px) {
+  .post-header {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.post-header .hero-image {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.hero-image-container {
+  animation: hero-fade-in 1s 0.5s linear forwards;
+  opacity: 0;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 56.25em;
+  height: 26em;
+}
+@keyframes hero-fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+.window-background {
+  animation: background-color 5s cubic-bezier(0.81, -0.46, 0.19, 1.33) infinite;
+  position: absolute;
+  height: 40em;
+  width: 30em;
+  top: 0;
+}
+.screen-container {
+  animation: move-emails 5s infinite ease-out;
+  position: absolute;
+  width: 7.6em;
+  height: 6em;
+  bottom: 6.66em;
+  background: #fff url(//cssanimation.rocks/images/courses/animation_101/emails.svg) repeat-y;
+  background-size: 100% auto;
+  left: 50%;
+  transform: translate(-16.4%, -10%);
+}
+.notification {
+  animation: move-notification 5s infinite cubic-bezier(0.81, -0.46, 0.19, 1.33);
+  position: absolute;
+  bottom: 57%;
+  left: 65%;
+  width: 4%;
+  height: 3%;
+  background: #fff url(//cssanimation.rocks/images/courses/animation_101/notification.svg);
+  background-size: 100%;
+}
+.moon {
+  animation: moon 5s infinite linear;
+  position: absolute;
+  left: 25%;
+  top: 3%;
+  background: url(//cssanimation.rocks/images/courses/animation_101/moon.svg) no-repeat;
+  background-size: 100%;
+  height: 25%;
+  width: 8%;
+  transform-origin: 30% 350%;
+}
+@keyframes background-color {
+  0% {
+    background: #011;
+  }
+  20%, 30% {
+    background: #5ab6fc;
+  }
+  100% {
+    background: #011;
+  }
+}
+@keyframes move-emails {
+  0%, 24% {
+    background-position: 0 -4.6em;
+    animation-timing-function: cubic-bezier(0.81, -0.46, 0.19, 1.33);
+  }
+  34%, 60% {
+    background-position: 0 0;
+  }
+  90%, 100% {
+    background-position: 0 -78%;
+  }
+}
+@keyframes move-notification {
+  0%, 20% {
+    transform: translateX(0.25em);
+    opacity: 0;
+  }
+  50%, 58% {
+    transform: none;
+    opacity: 1;
+  }
+  70%, 100% {
+    transform: translateX(-0.25em);
+    opacity: 0;
+  }
+}
+@keyframes moon {
+  0% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0.25, 0, 0.41, 1);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+    animation-timing-function: linear;
+  }
+}
+@media (max-width: 550px) {
+  .demo-container.clocks.single .clock, .badge {
+    font-size: 12px;
+  }
+}
+@media (max-width: 420px) {
+  .demo-container.clocks.single .clock, .badge {
+    font-size: 10px;
+  }
 }

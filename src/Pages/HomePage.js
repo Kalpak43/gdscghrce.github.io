@@ -11,9 +11,9 @@ const HomePage = () => {
         <div>
             <Hero />
             <About />
-            <Team />
+            <Team />   
             <UpEvent />
-            <Contact />
+            <Contact /> 
         </div>
     )
 }

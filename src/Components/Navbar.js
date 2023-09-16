@@ -28,7 +28,7 @@ export default function Navbar() {
 
 
   return (
-    <header className="fixed top-0 w-full" data-aos="zoom-in">
+    <header className="fixed top-0 w-full" data-aos="fade-in">
       <div className="flex justify-between items-center md:mx-4">
         <span className="logo w-fit z-50">
           <a href="/">
@@ -78,7 +78,7 @@ export default function Navbar() {
         id="opt"
       >
         <div
-          className="bg-gray-500 h-screen absolute top-0 right-0 flex justify-center items-center"
+          className="h-screen absolute top-0 right-0 flex justify-center items-center"
           id="opt1"
         >
           <ul id="ul" className="text-center" onClick={hideOnClick}>
@@ -89,13 +89,10 @@ export default function Navbar() {
               <a href="/#about">About</a>
             </li>
             <li className="text-4xl m-4">
-              <a href="/#team">Team</a>
+              <a href="/team">Team</a>
             </li>
             <li className="text-4xl m-4">
-              <a href="/#event">Events</a>
-            </li>
-            <li className="text-4xl m-4">
-              <a href="https://gdsc.community.dev/gh-raisoni-college-of-engineering-nagpur/">Join Us</a>
+              <a href="/events">Events</a>
             </li>
           </ul>
         </div>

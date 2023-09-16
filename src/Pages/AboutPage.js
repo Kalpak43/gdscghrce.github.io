@@ -1,8 +1,10 @@
+import Backgroound from "../Components/Background";
+
 const AboutPage = () => {
   return (
-    <div className="min-h-screen">
-      <div className="flex flex-col min-h-screen justify-center items-center">
-        <div className="que collapse collapse-plus w-2/3">
+    <div className="min-h-screen py-16">
+      <div className="flex flex-col min-h-screen justify-center items-center px-2">
+        <div className="que collapse collapse-plus md:w-2/3">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">Who We Are?</div>
           <div className="collapse-content text-justify">
@@ -19,7 +21,7 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div className="que collapse collapse-plus w-2/3">
+        <div className="que collapse collapse-plus md:w-2/3">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">What We Do?</div>
           <div className="collapse-content text-justify">
@@ -34,7 +36,7 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div className="que collapse collapse-plus w-2/3">
+        <div className="que collapse collapse-plus md:w-2/3">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">Our Mission</div>
           <div className="collapse-content text-justify">
@@ -49,7 +51,7 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div className="que collapse collapse-plus w-2/3">
+        <div className="que collapse collapse-plus md:w-2/3">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">Why Join Us?</div>
           <div className="collapse-content text-justify">
@@ -64,7 +66,7 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div className="que collapse collapse-plus w-2/3">
+        <div className="que collapse collapse-plus md:w-2/3">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">Get Involved</div>
           <div className="collapse-content text-justify">
@@ -79,6 +81,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
+      <Backgroound/>
     </div>
   );
 };
