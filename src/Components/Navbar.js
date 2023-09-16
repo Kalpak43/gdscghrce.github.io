@@ -30,7 +30,7 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 w-full" data-aos="fade-in">
       <div className="flex justify-between items-center md:mx-4">
-        <span className="logo w-fit z-50">
+        <span className="logo w-fit z-50 flex flex-col justify-center items-center">
           <a href="/">
             <svg
               className="h-16"
@@ -62,6 +62,7 @@ export default function Navbar() {
               ></path>
             </svg>
           </a>
+          <small>GHRCE</small>
         </span>
 
         <div className="pos navB" id="navB">

@@ -49,7 +49,7 @@ const Hero = () => {
             <br />
             GHRCE
           </h1>
-          <a href="/" className="about-btn my-3">
+          <a href="https://gdsc.community.dev/gh-raisoni-college-of-engineering-nagpur/" className="about-btn my-3">
             Join Us
           </a>
         </div>
