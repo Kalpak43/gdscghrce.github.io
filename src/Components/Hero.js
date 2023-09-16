@@ -77,7 +77,7 @@ const Hero = () => {
               <g clip-path="url(#a)">
                 <path
                   d="M-360.148-331.193H2200.9V1269.74H-360.148V-331.193zm420.59 515.587l350.428-.232-2.66 223.898-347.768 4.89V184.395zm0-123.498l352.684.083v113.97l-352.684 3.797V60.897z"
-                  fill="#009925"
+                  fill="#0F9D58"
                 />
               </g>
               <path
@@ -175,7 +175,7 @@ const Hero = () => {
                   fill="#f6f6f6"
                   fill-rule="nonzero"
                 />
-                <path fill="#ffdbd7" d="M333.335 286.273h326.8v172h-326.8z" />
+                <path fill="#f5b400" d="M333.335 286.273h326.8v172h-326.8z" />
                 {/* <path
                   fill="#fff"
                   fill-opacity=".843"

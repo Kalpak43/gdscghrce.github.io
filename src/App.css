@@ -6,7 +6,7 @@ html {
 :root {
   --google-blue : #4285F4;
   --google-red : #DB4437;
-  --google-yellow : #F4B400;
+  --google-yellow : #f5b400;
   --google-green : #0F9D58;
 }
 
@@ -248,16 +248,16 @@ header {
 }
 
 .blob-1 {
-  background-color: #ea4335; 
+  background-color: var(--dsc-logo-red); 
 }
 .blob-2 {
-  background-color: #4285F4; 
+  background-color: var(--dsc-logo-blue); 
 }
 .blob-3 {
-  background-color: #0F9D58;
+  background-color: var(--dsc-logo-green);
 }
 .blob-4 {
-  background-color: #fbcb43;
+  background-color: var(--dsc-logo-yellow);
 }
 
 @keyframes morph{
@@ -410,6 +410,10 @@ header {
   border-radius: 0.2rem;
 }
 
+.About .about-btn {
+  background-color: var(--dsc-logo-red);
+}
+
 .about-wave {
   fill: var(--about-bg);
 }
@@ -418,6 +422,7 @@ header {
 .team {
   background-color: transparent;
 }
+
 
 .overlay {
   position: absolute;
@@ -615,7 +620,7 @@ header {
 }
 
 .Events .about-btn {
-  background-color: var(--dsc-logo-green);
+  background-color: var(--dsc-logo-yellow);
 }
 
 .events-wave {
