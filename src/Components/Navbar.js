@@ -87,7 +87,7 @@ export default function Navbar() {
               <a href="/">Home</a>
             </li>
             <li className="text-4xl m-4">
-              <a href="/#about">About</a>
+              <a href="/about">About</a>
             </li>
             <li className="text-4xl m-4">
               <a href="/team">Team</a>

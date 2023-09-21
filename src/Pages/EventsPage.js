@@ -89,7 +89,7 @@ const EventsPage = () => {
           <h1 className="font-bold text-4xl relative z-10">Events</h1>
         </div>
       </div>
-      <div className="bg-white" id="past">
+      <div className="Background" id="past">
         <div className="flex justify-center flex-wrap gap-4 text-lg py-4">
           <small
             className="badges badges-1"

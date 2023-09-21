@@ -33,7 +33,7 @@ html {
 }
 
 .dark-theme {
-  --bg-color : #222222;
+  --bg-color : #000000;
   --default-font-color : #e4e4e4;
   --link-color : #a4a4a4;
   --dsc-logo-red : #fff;
@@ -63,6 +63,10 @@ html {
 
 .switch {
   z-index: 999;
+}
+
+.Background {
+  background-color: var(--bg-color);
 }
 
 /* HEADER */
@@ -248,16 +252,16 @@ header {
 }
 
 .blob-1 {
-  background-color: var(--dsc-logo-red); 
+  background-color: var(--google-red); 
 }
 .blob-2 {
-  background-color: var(--dsc-logo-blue); 
+  background-color: var(--google-blue); 
 }
 .blob-3 {
-  background-color: var(--dsc-logo-green);
+  background-color: var(--google-green);
 }
 .blob-4 {
-  background-color: var(--dsc-logo-yellow);
+  background-color: var(--google-yellow);
 }
 
 @keyframes morph{
@@ -564,7 +568,7 @@ header {
 /* ABOUT SECTION */
 .que {
   /* background-color: var(--accordian-bg); */
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--default-font-color);
   border-radius: 0;
 }
 

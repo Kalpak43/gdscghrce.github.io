@@ -31,7 +31,7 @@ export default function Backgroound() {
 
   return (
       <div
-        className="fixed top-0 left-0 h-screen w-screen flex justify-center items-center z-[-2] bg-white"
+        className="Background fixed top-0 left-0 h-screen w-screen flex justify-center items-center z-[-2]"
         style={{ transform: `scale(${scale}) rotate(${rotate}deg)` }}
       >
         <div className="md:h-5/6 h-3/6 aspect-square grid grid-cols-3 grid-rows-3">
@@ -47,7 +47,7 @@ export default function Backgroound() {
           <div className="h-full w-full">
             <div className="blob blob-4"></div>
           </div>
-          <div className="h-full w-full bg-white grid grid-cols-3 grid-rows-3">
+          <div className="h-full w-full grid grid-cols-3 grid-rows-3">
             <div className="h-full w-full">
               <div className="blob blob-1"></div>
             </div>

@@ -32,7 +32,7 @@ const TeamPage = () => {
         </div>
       </div>
 
-      <div className="relative bg-white">
+      <div className="relative Background">
         <h4 className="text-center font-bold text-2xl py-4">Lead</h4>
         <div className=" flex justify-center py-4">
           <div className="mcard">
