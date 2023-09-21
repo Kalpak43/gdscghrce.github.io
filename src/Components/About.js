@@ -3,7 +3,7 @@ import advisor2 from "../Images/pranay-saraf.webp";
 
 const About = () => {
   return (
-    <div className="About md:px-52 px-5 py-4 text-center min-h-[80vh] flex flex-col justify-center items-center" id="about">
+    <section className="About" id="about">
       <h1 className="text-4xl text-center font-bold mb-9" data-aos="zoom-in">
         About Us
       </h1>
@@ -23,7 +23,7 @@ const About = () => {
       <a className="about-btn w-fit" href="/about" data-aos="fade-in">
         More 
       </a>
-    </div>
+    </section>
   );
 };
 

@@ -7,12 +7,12 @@ import { useState } from "react";
 const EventsPage = () => {
 
   const eventsArr = [
-    <div className="">
+    <div className="ongoing-events">
       <h1 className="text-4xl text-center font-bold">Upcoming / Ongoing Events</h1>
       <div className="my-8 flex justify-center gap-16 py-4 flex-wrap">
           <div className="mcard">
             <div class="">
-              <div className="member-img rounded-full mx-auto border-2">
+              <div className="member-img mx-auto">
                 <img src={gdsj} className="" />
               </div>
               <h2 class="text-center text-lg font-semibold mt-3">
@@ -82,7 +82,7 @@ const EventsPage = () => {
   const [event, setEvent] = useState(0)
 
   return (
-    <div className="EventsPage min-h-screen">
+    <div className="EventsPage">
       <div className="sticky top-0 left-0 z-[-1]">
         <div className="team-header pt-40 text-center relative">
           <div className="overlay"></div>
@@ -108,47 +108,6 @@ const EventsPage = () => {
 
         </div>
         
-        {/* <div className="my-8 flex justify-center gap-16 py-4 flex-wrap">
-          <div class="">
-            <div className="member-img rounded-full mx-auto border-2">
-              <img src={gdsj} className="rounded-full" />
-            </div>
-            <h2 class="text-center text-lg font-semibold mt-3">
-              Info Session- "Google Cloud Study Jam"
-            </h2>
-            <p class="text-center mt-1">Aug 31, 2023</p>
-            <p class="text-center">
-              <FaLocationDot className="inline text-lg mb-1" /> G.H. Raisoni College
-              of Engineering - Nagpur
-            </p>
-          </div>
-          <div class="">
-            <div className="member-img rounded-full mx-auto border-2">
-              <img src={event_img} className="rounded-full" />
-            </div>
-            <h2 class="text-center text-lg font-semibold mt-3">
-              Info Session- "Coreconfluence"
-            </h2>
-            <p class="text-center mt-1">Aug 24, 2023</p>
-            <p class="text-center">
-              <FaLocationDot className="inline text-lg mb-1" /> G.H. Raisoni College
-              of Engineering - Nagpur
-            </p>
-          </div>
-          <div class="">
-            <div className="member-img rounded-full mx-auto border-2">
-              <img src={webDSC} className="rounded-full" />
-            </div>
-            <h2 class="text-center text-lg font-semibold mt-3">
-              Web with GDSC
-            </h2>
-            <p class="text-center mt-1">Jan 14, 2023</p>
-            <p class="text-center">
-              <FaLocationDot className="inline text-lg mb-1" /> G.H. Raisoni College
-              of Engineering - Nagpur
-            </p>
-          </div>
-        </div> */}
 
         {eventsArr[event]}
 
@@ -162,7 +121,6 @@ const EventsPage = () => {
         </div>
       </div>
 
-      <div className="bg"></div>
     </div>
   );
 };

@@ -1,14 +1,13 @@
-import About from "../Components/About"
-import Contact from "../Components/Contact"
 import Hero from "../Components/Hero"
-import Lead from "../Components/Lead"
+import About from "../Components/About"
 import Team from "../Components/Team"
 import UpEvent from "../Components/UpEvent"
+import Contact from "../Components/Contact"
 
 const HomePage = () => {
 
     return(
-        <div>
+        <div className="HomePage">
             <Hero />
             <About />
             <Team />   

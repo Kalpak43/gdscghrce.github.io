@@ -9,8 +9,7 @@ const UpEvent = () => {
   const imgArr = [img1, img2, img3, img4];
 
   return (
-    <div className="Events z-10 min-h-[80vh] py-4">
-      <div className="md:px-52 px-5 py-4 text-center">
+    <div className="Events">
         <h1
           className="text-4xl text-center font-bold mb-9"
           data-aos="fade-down"
@@ -75,11 +74,10 @@ const UpEvent = () => {
             </li>
             <br />
             <a className="about-btn" href="/events">
-              Past Events
+              See all Events
             </a>
           </ul>
         </div>
-      </div>
     </div>
   );
 };
