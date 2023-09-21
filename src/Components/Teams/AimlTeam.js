@@ -1,4 +1,8 @@
 import { FaLinkedin } from "react-icons/fa6";
+import aditiImg from "../../Images/members/AditiFadnavis.jpg"
+import amanImg from "../../Images/members/AmanKhapre.png"
+import prathamImg from "../../Images/members/PrathamChaudhary.png"
+import lavishImg from "../../Images/members/LavishHarinkhede.png"
 
 export default function AimlTeam() {
   return (
@@ -9,7 +13,7 @@ export default function AimlTeam() {
           <div className="">
             <div className="member-img rounded-full mx-auto border-2">
               <img
-                src="https://drive.google.com/uc?export=view&id=17LHiuiz8ROkgxvsf4ozAkqgVnN9CmK91"
+                src={aditiImg}
                 className="rounded-full"
               />
             </div>
@@ -31,7 +35,7 @@ export default function AimlTeam() {
           <div className="">
             <div className="member-img rounded-full mx-auto border-2">
               <img
-                src="https://drive.google.com/uc?export=view&id=11hUOUm7gOOqyQwuw8doRRd7F-QffupxS"
+                src={amanImg}
                 className="rounded-full"
               />
             </div>
@@ -51,7 +55,7 @@ export default function AimlTeam() {
           <div className="">
             <div className="member-img rounded-full mx-auto border-2">
               <img
-                src="https://drive.google.com/uc?export=view&id=11i1xpFAIhrHxM994pHiWTMl1GAARehP9"
+                src={prathamImg}
                 className="rounded-full"
               />
             </div>
@@ -73,7 +77,7 @@ export default function AimlTeam() {
           <div className="">
             <div className="member-img rounded-full mx-auto border-2">
               <img
-                src="https://drive.google.com/uc?export=view&id=11iQMHcOAAVOodcqA5MscbW0fZrK2uN5X"
+                src={lavishImg}
                 className="rounded-full"
               />
             </div>
