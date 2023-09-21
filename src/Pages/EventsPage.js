@@ -33,7 +33,7 @@ const EventsPage = () => {
       <div className="my-8 flex justify-center gap-16 py-4 flex-wrap">
           <div className="mcard">
             <div class="">
-              <div className="member-img rounded-full mx-auto border-2">
+              <div className="member-img rounded-full mx-auto">
                 <img src={gdsj} className="" />
               </div>
               <h2 class="text-center text-lg font-semibold mt-3">
@@ -48,7 +48,7 @@ const EventsPage = () => {
           </div>
           <div className="mcard">
             <div class="">
-              <div className="member-img rounded-full mx-auto border-2">
+              <div className="member-img rounded-full mx-auto">
                 <img src={event_img} className="" />
               </div>
               <h2 class="text-center text-lg font-semibold mt-3">
@@ -63,7 +63,7 @@ const EventsPage = () => {
           </div>
           <div className="mcard">
             <div class="">
-              <div className="member-img rounded-full mx-auto border-2">
+              <div className="member-img rounded-full mx-auto">
                 <img src={webDSC} className="" />
               </div>
               <h2 class="text-center text-lg font-semibold mt-3">
