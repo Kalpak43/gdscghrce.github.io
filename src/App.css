@@ -3,56 +3,38 @@ html {
 }
 
 :root {
-  --google-blue : #4285F4;
-  --google-red : #DB4437;
-  --google-yellow : #f5b400;
-  --google-green : #0F9D58;
+  --google-blue: #4285f4;
+  --google-red: #db4437;
+  --google-yellow: #f5b400;
+  --google-green: #0f9d58;
 }
 
 .light-theme {
-  --bg-color : #ffffff;
-  --default-font-color : #000;
-  --link-color : #2a2525;
-  --dsc-logo-red : #DB4437;
-  --dsc-logo-blue : #4285F4;
-  --dsc-logo-yellow : #f5b400;
-  --dsc-logo-green : #0F9D58;
+  --bg-color: #ffffff;
+  --default-font-color: #000;
+  --dsc-logo-red: #db4437;
+  --dsc-logo-blue: #4285f4;
+  --dsc-logo-yellow: #f5b400;
+  --dsc-logo-green: #0f9d58;
 
-  --hero-bg : #f2f2f2;
-  --hero-blur : #00000083;
-  --about-bg : #e57368;
-  --lead-bg : #76a7fa;
-  --events-bg : #fbcb43;
-  --contact-bg : #33b679;
-  --card-bg : #afb5cd;
-  
-  --accordian-bg : #ffffff;
-  --btn-text : #f2f2f2;
+  --accordian-bg: #ffffff;
+  --btn-text: #f2f2f2;
 
-  --badges-hover-text : #fff;
+  --badges-hover-text: #fff;
 }
 
 .dark-theme {
-  --bg-color : #000000;
-  --default-font-color : #e4e4e4;
-  --link-color : #a4a4a4;
-  --dsc-logo-red : #fff;
-  --dsc-logo-blue : #fff;
-  --dsc-logo-yellow : #fff;
-  --dsc-logo-green : #fff;
-  
-  --hero-bg : #131313;
-  --hero-blur : #00000083;
-  --about-bg : #222;
-  --team-bg-font : #efefef69;
-  --lead-bg : #131313;
-  --events-bg : #222;
-  --contact-bg : #131313; 
-  --card-bg : #25262a;
-  
-  --accordian-bg : #34353c;
-  --btn-text : #222222;
-  --badges-hover-text : #000;
+  --bg-color: #000000;
+  --default-font-color: #e4e4e4;
+  --dsc-logo-red: #fff;
+  --dsc-logo-blue: #fff;
+  --dsc-logo-yellow: #fff;
+  --dsc-logo-green: #fff;
+
+  --accordian-bg: #34353c;
+  --btn-text: #222222;
+
+  --badges-hover-text: #000;
 }
 
 .App {
@@ -69,8 +51,13 @@ html {
   background-color: var(--bg-color);
 }
 
-/* HEADER */
+/* HEADER SECTION*/
 
+header {
+  z-index: 999;
+}
+
+/* Logo Styles */
 .Logo_logoRedPart__QJGXu {
   fill: var(--dsc-logo-red);
   transition: all 0.5s ease-in-out;
@@ -90,11 +77,9 @@ html {
   fill: var(--dsc-logo-blue);
   transition: all 0.5s ease-in-out;
 }
+/* End Logo */
 
-header {
-  z-index: 999;
-}
-
+/* Navigation Options and Hamburger */
 .navB {
   z-index: 999;
   --border: 3px;
@@ -140,7 +125,6 @@ header {
 .navB:hover {
   --_s: 0px;
 }
-
 
 .navB label {
   display: flex;
@@ -202,60 +186,39 @@ header {
   transition: all 0.5s ease-in;
 }
 
-#opt1 ul li:hover{
+#opt1 ul li:hover {
   scale: 1.1;
   transition: all 0.2s ease-in;
 }
 
-#opt1, #opt2 {
+#opt1,
+#opt2 {
   width: 0;
   transition: all 0.5s ease-in-out;
 }
 
+/* end Navigation */
 
-/* HOMEPAGE */
-/* HERO */
+/* END HEADER */
 
-.Hero {
-  height: 100vh;
-  color: var(--default-font-color);
-}
+/* HOMEPAGE SECTION*/
 
-/* DOTTED BG  */
-/* .bg {
-  position: fixed;
-  z-index: -4;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  --dot-bg: var(--hero-bg);
-  --dot-color: var(--default-font-color);
-  --dot-size: 1.5px;
-  --dot-space: 22px;
-	background:
-		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-		var(--dot-color);
-
-  transition: all 0.5s ease-in-out;
-} */
-
-.blob{
+/* Hero BG */
+.blob {
   border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
-  width: 60%; 
+  width: 60%;
   height: 60%;
-  animation: morph 7s linear infinite; 
+  animation: morph 7s linear infinite;
   transform-style: preserve-3d;
   outline: 1px solid transparent;
   will-change: border-radius;
 }
 
 .blob-1 {
-  background-color: var(--google-red); 
+  background-color: var(--google-red);
 }
 .blob-2 {
-  background-color: var(--google-blue); 
+  background-color: var(--google-blue);
 }
 .blob-3 {
   background-color: var(--google-green);
@@ -264,25 +227,33 @@ header {
   background-color: var(--google-yellow);
 }
 
-@keyframes morph{
-  0%,100%{
-  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
-    transform: translate3d(0,0,0) rotateZ(0.01deg);
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
   }
-  34%{
-      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
-    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  34% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
   }
-  50%{
-    opacity: .89;
-    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  50% {
+    opacity: 0.89;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
   }
-  67%{
-    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
-    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
   }
 }
+/* End Hero BG */
 
+/* Hero*/
+
+.Hero {
+  height: 100vh;
+  color: var(--default-font-color);
+}
 
 .Hero .logo-img {
   border-radius: 0.4rem;
@@ -293,296 +264,15 @@ header {
   font-size: 1.3rem;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .Hero .logo-img {
     margin: 1rem;
     height: fit-content;
   }
 }
 
-/* ABOUT SECTION */
-.About, .team, .Events {
-  /* md:px-52 px-5 py-4 text-center min-h-[80vh] flex flex-col justify-center items-center */
-  background-color: transparent;
-  min-height: 60vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 13rem;
 
-}
-
-@media screen and (max-width: 990px) {
-  .About, .team, .Events {
-    padding: 1rem;
-    margin-block: 2rem;
-  }
-}
-
-.about-btn {
-  background-color: var(--dsc-logo-blue);
-  color: var(--btn-text);
-  padding-inline: 0.6rem;
-  padding-block: 0.7rem;
-  border-radius: 0.2rem;
-}
-
-.About .about-btn {
-  background-color: var(--dsc-logo-red);
-}
-
-/* TEAM SECTION */
-.team {
-  background-color: transparent;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #00000080;
-  z-index: 0;
-}
-
-.TeamPage .about-btn {
-  background-color: var(--dsc-logo-green);
-}
-
-.TeamPage .team-header {
-  background-image: url(./Images/event/team.jpeg);
-  background-size:     cover;                      /* <------ */
-  background-repeat:   no-repeat;
-  color: #fff;
-}
-
-@media screen and (max-width : 990px) {
-  .TeamPage .team-header {
-    background-position: center center;
-  }
-}
-
-.mcard {
-  position: relative;
-
-  max-width: 90%;
-  min-height: 300px;
-  height: fit-content;
-  aspect-ratio: 4/3;
-  z-index: 10;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  background-color: var(--bg-color);
-  border: 2px solid var(--dsc-logo-red);
-
-  cursor: pointer;
-}
-
-
-.mcard::before {
-  content: '';
-  position: absolute;
-  top: 20px;
-  left: -2px;
-  width: calc(100% + 4px);
-  height: calc(100% - 40px);
-  background-color: var(--bg-color);
-  transition: all 0.5s ease-in-out;
-  transform: scaleY(1);
-}
-
-.mcard:hover::before {
-  transform: scaleY(0);
-}
-
-.mcard::after {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: 20px;
-  height: calc(100% + 4px);
-  width: calc(100% - 40px);
-  background-color: var(--bg-color);
-  transition: all 0.5s ease-in-out;
-  transform: scaleX(1);
-}
-
-.mcard:hover::after {
-  transform: scaleX(0);
-}
-
-.mcard div{
-  position: relative;
-  z-index: 20;
-}
-
-.badges {
-  border: 2px solid black;
-  padding-block: 0.2rem;
-  padding-inline: 0.4rem;
-  border-radius: 9999px;
-  cursor: pointer;
-  color: var(--default-font-color);
-  transition: all 0.3s ease-in-out;
-}
-
-.badges:hover {
-  color: var(--badges-hover-text);
-}
-
-.badges-1, .type-1 .mcard {
-  border-color: var(--dsc-logo-red);
-}
-
-.badges-1:hover {
-  background-color: var(--dsc-logo-red);
-}
-
-.badges-2, .type-2 .mcard, .past-events .mcard {
-  border-color: var(--dsc-logo-blue);
-}
-
-.badges-2:hover {
-  background-color: var(--dsc-logo-blue);
-}
-
-
-.badges-3, .type-3 .mcard {
-  border-color: var(--dsc-logo-yellow);
-}
-.badges-3:hover {
-  background-color: var(--dsc-logo-yellow);
-}
-
-.badges-4, .type-4 .mcard {
-  border-color: var(--dsc-logo-green);
-}
-.badges-4:hover {
-  background-color: var(--dsc-logo-green);
-}
-
-
-
-.team-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  z-index: 0;
-  text-transform: uppercase;
-  font-size: 4rem;
-  color: var(--team-bg-font);
-  letter-spacing: 2rem;
-}
-
-.lead, .management-team, .web-team, .aiml-team, .technical-team, .flutter-team, .design-team, .dsa-team {
-  padding-inline: 2rem;
-}
-
-/* LEAD SECTION */
-.Lead {
-  background-color: var(--lead-bg);
-  color: #fff;
-  z-index: 10;
-}
-
-.lead-img {
-  border: 2px solid black;
-  width: 50%;
-  aspect-ratio: 3/4;
-}
-
-.lead-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.lead-wave {
-  fill: var(--lead-bg);
-}
-
-@media screen and (max-width : 768px) {
-  .lead-info {
-    text-align: center;
-  }
-}
-
-/* EVENTS SECTION */
-.Events {
-  background-color: transparent;
-}
-
-.EventsPage .team-header {
-  background-image: url(./Images/event/eventBanner.jpg);
-  color: #fff;
-}
-
-@media screen and (max-width : 990px) {
-  .EventsPage .team-header {
-    background-position: center top;
-  }
-}
-
-.Events .about-btn {
-  background-color: var(--dsc-logo-yellow);
-}
-
-.events-wave {
-  fill: var(--events-bg);
-}
-
-/* CONTACT SECTION */
-.Contact {
-  background-color: transparent;
-  color: var(--default-font-color);
-}
-
-/* TEAMS PAGE */
-
-.member-card {
-  background-color: var(--card-bg);
-}
-
-.member-img {
-  max-height: 7rem;
-  aspect-ratio: 1/1;
-}
-
-.member-img img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: top;
-}
-
-/* ABOUT SECTION */
-.que {
-  /* background-color: var(--accordian-bg); */
-  border-bottom: 1px solid var(--default-font-color);
-  border-radius: 0;
-}
-
-/* FOOTER SECTION */
-.Footer {
-  background-color: var(--bg-color);
-}
-
-
-
-
-
-
-
+/* Hero Animated Image */
 .post-header {
   border-radius: 9999px;
   height: 80%;
@@ -593,7 +283,7 @@ header {
   position: relative;
 }
 
-@media screen and (max-width : 990px) {
+@media screen and (max-width: 990px) {
   .post-header {
     height: auto;
     width: 100%;
@@ -636,7 +326,8 @@ header {
   width: 7.6em;
   height: 6em;
   bottom: 6.66em;
-  background: #fff url(//cssanimation.rocks/images/courses/animation_101/emails.svg) repeat-y;
+  background: #fff
+    url(//cssanimation.rocks/images/courses/animation_101/emails.svg) repeat-y;
   background-size: 100% auto;
   left: 50%;
   transform: translate(-16.4%, -10%);
@@ -648,7 +339,8 @@ header {
   left: 65%;
   width: 4%;
   height: 3%;
-  background: #fff url(//cssanimation.rocks/images/courses/animation_101/notification.svg);
+  background: #fff
+    url(//cssanimation.rocks/images/courses/animation_101/notification.svg);
   background-size: 100%;
 }
 .moon {
@@ -656,7 +348,8 @@ header {
   position: absolute;
   left: 25%;
   top: 3%;
-  background: url(//cssanimation.rocks/images/courses/animation_101/moon.svg) no-repeat;
+  background: url(//cssanimation.rocks/images/courses/animation_101/moon.svg)
+    no-repeat;
   background-size: 100%;
   height: 25%;
   width: 8%;
@@ -666,7 +359,8 @@ header {
   0% {
     background: #011;
   }
-  20%, 30% {
+  20%,
+  30% {
     background: #5ab6fc;
   }
   100% {
@@ -674,27 +368,33 @@ header {
   }
 }
 @keyframes move-emails {
-  0%, 24% {
+  0%,
+  24% {
     background-position: 0 -4.6em;
     animation-timing-function: cubic-bezier(0.81, -0.46, 0.19, 1.33);
   }
-  34%, 60% {
+  34%,
+  60% {
     background-position: 0 0;
   }
-  90%, 100% {
+  90%,
+  100% {
     background-position: 0 -78%;
   }
 }
 @keyframes move-notification {
-  0%, 20% {
+  0%,
+  20% {
     transform: translateX(0.25em);
     opacity: 0;
   }
-  50%, 58% {
+  50%,
+  58% {
     transform: none;
     opacity: 1;
   }
-  70%, 100% {
+  70%,
+  100% {
     transform: translateX(-0.25em);
     opacity: 0;
   }
@@ -710,12 +410,281 @@ header {
   }
 }
 @media (max-width: 550px) {
-  .demo-container.clocks.single .clock, .badge {
+  .demo-container.clocks.single .clock,
+  .badge {
     font-size: 12px;
   }
 }
 @media (max-width: 420px) {
-  .demo-container.clocks.single .clock, .badge {
+  .demo-container.clocks.single .clock,
+  .badge {
     font-size: 10px;
   }
 }
+
+/* End Animated Image */
+
+/* End Hero */
+
+/* General to About, team and event sectio on HomePage */
+.About,
+.team,
+.Events {
+  /* md:px-52 px-5 py-4 text-center min-h-[80vh] flex flex-col justify-center items-center */
+  background-color: transparent;
+  min-height: 60vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 13rem;
+}
+
+@media screen and (max-width: 990px) {
+  .About,
+  .team,
+  .Events {
+    padding: 1rem;
+    margin-block: 2rem;
+  }
+}
+
+.about-btn {
+  background-color: var(--dsc-logo-blue);
+  color: var(--btn-text);
+  padding-inline: 0.6rem;
+  padding-block: 0.7rem;
+  border-radius: 0.2rem;
+}
+/* End */
+
+/* About */
+.About .about-btn {
+  background-color: var(--dsc-logo-red);
+}
+/* End About */
+
+/* Team */
+.team {
+  background-color: transparent;
+}
+/* End Team */
+
+/* Events */
+.Events {
+  background-color: transparent;
+}
+
+.Events .about-btn {
+  background-color: var(--dsc-logo-yellow);
+}
+/* End Events */
+
+
+/* Contact Us */
+.Contact {
+  background-color: transparent;
+  color: var(--default-font-color);
+}
+/* Contact Us */
+
+/* END HOMEPAGE */
+
+
+
+
+/* ABOUTPAGE SECTION */
+.que {
+  /* background-color: var(--accordian-bg); */
+  border-bottom: 1px solid var(--default-font-color);
+  border-radius: 0;
+}
+/* END ABOUTPAGE */
+
+
+
+
+/* TEAMPAGE SECTION */
+.member-card {
+  background-color: var(--card-bg);
+}
+
+.member-img {
+  max-height: 7rem;
+  aspect-ratio: 1/1;
+}
+
+.member-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.TeamPage .about-btn {
+  background-color: var(--dsc-logo-green);
+}
+
+.TeamPage .team-header {
+  background-image: url(./Images/event/team.jpeg);
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+  .TeamPage .team-header {
+    background-position: center center;
+  }
+}
+
+.mcard {
+  position: relative;
+
+  max-width: 90%;
+  min-height: 300px;
+  height: fit-content;
+  aspect-ratio: 4/3;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: var(--bg-color);
+  border: 2px solid var(--dsc-logo-red);
+
+  cursor: pointer;
+}
+.mcard::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 40px);
+  background-color: var(--bg-color);
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+.mcard:hover::before {
+  transform: scaleY(0);
+}
+.mcard::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 20px;
+  height: calc(100% + 4px);
+  width: calc(100% - 40px);
+  background-color: var(--bg-color);
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+.mcard:hover::after {
+  transform: scaleX(0);
+}
+.mcard div {
+  position: relative;
+  z-index: 20;
+}
+
+.badges {
+  border: 2px solid black;
+  padding-block: 0.2rem;
+  padding-inline: 0.4rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  color: var(--default-font-color);
+  transition: all 0.3s ease-in-out;
+}
+.badges:hover {
+  color: var(--badges-hover-text);
+}
+
+.badges-1,
+.type-1 .mcard {
+  border-color: var(--dsc-logo-red);
+}
+.badges-1:hover {
+  background-color: var(--dsc-logo-red);
+}
+.badges-2,
+.type-2 .mcard,
+.past-events .mcard {
+  border-color: var(--dsc-logo-blue);
+}
+.badges-2:hover {
+  background-color: var(--dsc-logo-blue);
+}
+.badges-3,
+.type-3 .mcard {
+  border-color: var(--dsc-logo-yellow);
+}
+.badges-3:hover {
+  background-color: var(--dsc-logo-yellow);
+}
+.badges-4,
+.type-4 .mcard {
+  border-color: var(--dsc-logo-green);
+}
+.badges-4:hover {
+  background-color: var(--dsc-logo-green);
+}
+
+.lead,
+.management-team,
+.web-team,
+.aiml-team,
+.technical-team,
+.flutter-team,
+.design-team,
+.dsa-team {
+  padding-inline: 2rem;
+}
+/* 
+
+.team-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: var(--team-bg-font);
+  letter-spacing: 2rem;
+}
+ */
+
+/* END TEAMPAGE */
+
+
+
+
+
+/* EVENTSPAGE SECTION */
+.EventsPage .team-header {
+  background-image: url(./Images/event/eventBanner.jpg);
+  color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+  .EventsPage .team-header {
+    background-position: center top;
+  }
+}
+
+/* END EVENTSPAGE */
+
+
+
+/* FOOTER SECTION */
+.Footer {
+  background-color: var(--bg-color);
+}
+/* END FOOTER */

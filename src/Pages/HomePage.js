@@ -1,8 +1,8 @@
-import Hero from "../Components/Hero"
-import About from "../Components/About"
-import Team from "../Components/Team"
-import UpEvent from "../Components/UpEvent"
-import Contact from "../Components/Contact"
+import Hero from "../Components/HomePage/Hero"
+import About from "../Components/HomePage/About"
+import Team from "../Components/HomePage/Team"
+import UpEvent from "../Components/HomePage/UpEvent"
+import Contact from "../Components/HomePage/Contact"
 
 const HomePage = () => {
 
