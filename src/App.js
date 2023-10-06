@@ -15,6 +15,7 @@ import FigmaEvent from "./Pages/figma-lifestyle/FIgmaEvent";
 import MainLayout from "./Layouts/MainLayout";
 
 import { FaSun, FaMoon } from "react-icons/fa6";
+import TextBG from "./Components/figmaEvent/TextBG";
 
 function App() {
   const router = createBrowserRouter([
@@ -42,6 +43,10 @@ function App() {
     {
       path: "/figma-lifestyle",
       element: <FigmaEvent />
+    },
+    {
+      path: "/bg",
+      element: <TextBG />
     }
   ]);
   

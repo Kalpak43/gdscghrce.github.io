@@ -8,6 +8,8 @@ import Contact from "../../Components/figmaEvent/Contact"
 import SmokeBG from "../../Components/figmaEvent/SmokeBG"
 import Schedule from "../../Components/figmaEvent/Schedule"
 import Sponsors from "../../Components/figmaEvent/Sponsors"
+import Organizers from "../../Components/figmaEvent/Organizers"
+import TextBG from "../../Components/figmaEvent/TextBG"
 
 export default function FigmaEvent () {
 
@@ -15,6 +17,7 @@ export default function FigmaEvent () {
 
     return (
         <div className="figmaEvent">
+            {/* <TextBG /> */}
             {/* <SmokeBG /> */}
             <StaryBg />
             <Navbar />
@@ -22,6 +25,7 @@ export default function FigmaEvent () {
             <Sponsors />
             <About />
             <Speakers />
+            <Organizers />
             <Schedule />
             <Contact />
         </div>

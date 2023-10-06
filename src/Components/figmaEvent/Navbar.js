@@ -51,10 +51,10 @@ export default function Navbar() {
               <a href="/figma-lifestyle#speakers">Speakers</a>
             </li>
             <li>
-              <a href="/contact">Schedule</a>
+              <a href="/figma-lifestyle#schedule">Schedule</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="/figma-lifestyle#contactus">Contact</a>
             </li>
           </ul>
         </div>
