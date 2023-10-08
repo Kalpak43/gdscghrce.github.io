@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3b0dd47.css",
-    "main.js": "/static/js/main.80f6871a.js",
+    "main.css": "/static/css/main.979e9e52.css",
+    "main.js": "/static/js/main.d9263bf6.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/SmokeVideo.mp4": "/static/media/SmokeVideo.d26b6922c9d1bde15ea3.mp4",
     "static/media/SmokeVideoGIF.gif": "/static/media/SmokeVideoGIF.666ab850c7d47bece3ef.gif",
@@ -36,10 +36,12 @@
     "static/media/RutujaBalpande.webp": "/static/media/RutujaBalpande.e7c1b0c2e4325f9f35d9.webp",
     "static/media/WebwithDSC.webp": "/static/media/WebwithDSC.d30e2a658a9386e69118.webp",
     "static/media/TabUI.png": "/static/media/TabUI.48d0dae5f09224c285d4.png",
+    "static/media/handshake.png": "/static/media/handshake.2dcc9aa284ddeb380bc6.png",
     "static/media/ShaileshThakur.webp": "/static/media/ShaileshThakur.ed0414e5515d72571e14.webp",
     "static/media/GCSJ_logo.webp": "/static/media/GCSJ_logo.1b293c93398776720ba6.webp",
     "static/media/figmaLifestyleLogo.png": "/static/media/figmaLifestyleLogo.be9a9e47b50da59cba72.png",
     "static/media/KaustubhSaraf.webp": "/static/media/KaustubhSaraf.04ba52ebcc02b77bf756.webp",
+    "static/media/figmaIcon.png": "/static/media/figmaIcon.ddaea9f7f1600efa8905.png",
     "static/media/AryanKulat.webp": "/static/media/AryanKulat.70d22cc075d44ba4801a.webp",
     "static/media/AayushPaigwar.webp": "/static/media/AayushPaigwar.0ef2244443e4bb36c137.webp",
     "static/media/ProductSans-Regular.woff": "/static/media/ProductSans-Regular.18c3428d2ec9ca2f0072.woff",
@@ -51,12 +53,12 @@
     "static/media/ShreerangKolhe.webp": "/static/media/ShreerangKolhe.9cd9ed3d6e6e2140426d.webp",
     "static/media/PayalPande.webp": "/static/media/PayalPande.d246c1ce16218183f5d2.webp",
     "index.html": "/index.html",
-    "main.d3b0dd47.css.map": "/static/css/main.d3b0dd47.css.map",
-    "main.80f6871a.js.map": "/static/js/main.80f6871a.js.map",
+    "main.979e9e52.css.map": "/static/css/main.979e9e52.css.map",
+    "main.d9263bf6.js.map": "/static/js/main.d9263bf6.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3b0dd47.css",
-    "static/js/main.80f6871a.js"
+    "static/css/main.979e9e52.css",
+    "static/js/main.d9263bf6.js"
   ]
 }
