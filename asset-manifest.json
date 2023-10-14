@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.482f7053.css",
-    "main.js": "/static/js/main.3d3110a1.js",
+    "main.css": "/static/css/main.d519b71e.css",
+    "main.js": "/static/js/main.a4bacabe.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/HarshChaudhari.png": "/static/media/HarshChaudhari.56448186d38f47aefc8a.png",
     "static/media/PCUI.svg": "/static/media/PCUI.546617719b7b3bb35a6e8651d327ba36.svg",
@@ -24,6 +24,7 @@
     "static/media/AmanKhapre.png": "/static/media/AmanKhapre.fa7a0e3548c07e17a593.png",
     "static/media/event1.jpeg": "/static/media/event1.c661ea57d259aa859ea0.jpeg",
     "static/media/KartikGile.png": "/static/media/KartikGile.6d518f753d5cb6287cea.png",
+    "static/media/FlutterNagpur_logo.png": "/static/media/FlutterNagpur_logo.4a3d5a2764b26791ecf4.png",
     "static/media/event2.jpg": "/static/media/event2.62da1f21c017857e09c3.jpg",
     "static/media/team.jpeg": "/static/media/team.8cb5c555fba7b79ebe7d.jpeg",
     "static/media/KrutikaNavghare.png": "/static/media/KrutikaNavghare.b38f1cf8efc203eae977.png",
@@ -51,15 +52,17 @@
     "static/media/LokeshVazirani.webp": "/static/media/LokeshVazirani.648591c18a6e13e326cc.webp",
     "static/media/KalpakGoshikwar.webp": "/static/media/KalpakGoshikwar.901250e54b629595a7f6.webp",
     "static/media/ProductSans-Regular.woff2": "/static/media/ProductSans-Regular.9ccaabc5abc3920047b7.woff2",
+    "static/media/nekita-chavhan.webp": "/static/media/nekita-chavhan.2474758133e683bc8cfe.webp",
     "static/media/ShreerangKolhe.webp": "/static/media/ShreerangKolhe.9cd9ed3d6e6e2140426d.webp",
     "static/media/PayalPande.webp": "/static/media/PayalPande.d246c1ce16218183f5d2.webp",
+    "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "index.html": "/index.html",
-    "main.482f7053.css.map": "/static/css/main.482f7053.css.map",
-    "main.3d3110a1.js.map": "/static/js/main.3d3110a1.js.map",
+    "main.d519b71e.css.map": "/static/css/main.d519b71e.css.map",
+    "main.a4bacabe.js.map": "/static/js/main.a4bacabe.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.482f7053.css",
-    "static/js/main.3d3110a1.js"
+    "static/css/main.d519b71e.css",
+    "static/js/main.a4bacabe.js"
   ]
 }
