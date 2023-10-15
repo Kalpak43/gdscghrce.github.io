@@ -1,231 +1,175 @@
 import Speaker1 from "../../Images/speaker/AbhilashTelrandhe.png";
-import leadImg from "../../Images/members/AmanTiwari.png";
-import Anmoldeep from "../../Images/AnmolDeep.png";
+import organizer1 from "../../Images/organizers/AmanTiwari.jpg"
+import organizer2 from "../../Images/organizers/AnmolDeep4.jpg";
 
 export default function Organizers() {
   return (
-    <section className="event-organizers">
+    <section className="event-organizers" id="organizers">
       <div className="organizers" data-aos="fade-in">
         <h2>Organizers</h2>
         <div className="card-container flex justify-evenly items-center gap-8 flex-wrap">
-          <div className="card">
-            {/* <span class="pro">PRO</span> */}
-            <img className="round" src={leadImg} alt="user" />
-            <h3>Aman Tiwari</h3>
-            {/* <h6>New York</h6> */}
-            <p>
-              Chapter Lead <br /> @GDSC GHRCE
-            </p>
-            <div className="buttons">
-              <a
-                href="https://www.instagram.com/at_creations10/?hl=en"
-                className="primary"
-                target="__blank"
-              >
-                Linkedin
-              </a>
+          <div className="parent">
+            <div className="ecard">
+              <div className="glass"></div>
+              <div className="content">
+                <span>
+                  <img className="round h-32" src={organizer1} alt="user" />
+                </span>
+                <span className="title">Aman Tiwari</span>
+                <span className="text">Lead @GDSC GHRCE</span>
+              </div>
+              <div className="bottom">
+                <div className="social-buttons-container">
+                  <a className="social-button .social-button3" href="https://www.linkedin.com/in/amantiwari2091/" target="__blank">
+                    <img
+                      src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' aria-labelledby='title' aria-describedby='desc' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ELinkedin%3C/title%3E%3Cdesc%3EA color styled icon from Orion Icon Library.%3C/desc%3E%3Cpath data-name='layer1' fill='%230077b7' d='M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z'%3E%3C/path%3E%3C/svg%3E"
+                      alt="Linkedin"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
-            {/* <div class="skills">
-            <h6>Skills</h6>
-            <ul>
-              <li>UI / UX</li>
-              <li>Front End Development</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-          </div> */}
           </div>
-          <div className="card">
-            {/* <span class="pro">PRO</span> */}
-            <img className="round" src={Anmoldeep} alt="user" />
-            <h3>Anmoldeep Singh Arora</h3>
-            {/* <h6>New York</h6> */}
-            <p>
-              Salesforce Developer <br /> @Persistent Systems Limited
-            </p>
-            <div className="buttons">
-              <a
-                href="https://www.instagram.com/at_creations10/?hl=en"
-                className="primary"
-                target="__blank"
-              >
-                Linkedin
-              </a>
+          <div className="parent">
+            <div className="ecard">
+              <div className="glass"></div>
+              <div className="content">
+                <span>
+                  <img className="round h-32" src={organizer2} alt="user" />
+                </span>
+                <span className="title">Anmoldeep Singh Arora</span>
+                <span className="text">Salesforce Developer @Persistent Systems</span>
+              </div>
+              <div className="bottom">
+                <div className="social-buttons-container">
+                  <a className="social-button .social-button3" href="https://www.linkedin.com/in/eduanmoldeep/" target="__blank">
+                    <img
+                      src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' aria-labelledby='title' aria-describedby='desc' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ELinkedin%3C/title%3E%3Cdesc%3EA color styled icon from Orion Icon Library.%3C/desc%3E%3Cpath data-name='layer1' fill='%230077b7' d='M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z'%3E%3C/path%3E%3C/svg%3E"
+                      alt="Linkedin"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
-            {/* <div class="skills">
-            <h6>Skills</h6>
-            <ul>
-              <li>UI / UX</li>
-              <li>Front End Development</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-          </div> */}
           </div>
         </div>
       </div>
 
-      <div className="organizers" data-aos="fade-in">
+      {/* <div className="organizers" data-aos="fade-in">
         <h3>Co-Organizers</h3>
         <div className="card-container flex justify-evenly items-center gap-8 flex-wrap">
-          <div className="card">
-            {/* <span class="pro">PRO</span> */}
-            <img className="round" src={leadImg} alt="user" />
-            <h3>Aman Tiwari</h3>
-            {/* <h6>New York</h6> */}
-            <p>
-              Chapter Lead <br /> @GDSC GHRCE
-            </p>
-            <div className="buttons">
-              <a
-                href="https://www.instagram.com/at_creations10/?hl=en"
-                className="primary"
-                target="__blank"
-              >
-                Linkedin
-              </a>
+          <div className="parent">
+            <div className="ecard">
+              <div className="glass"></div>
+              <div className="content">
+                <span>
+                  <img className="round h-32" src={organizer2} alt="user" />
+                </span>
+                <span className="title">Anmoldeep Singh Arora</span>
+                <span className="text">Salesforce Developer @Persistent Systems</span>
+              </div>
+              <div className="bottom">
+                <div className="social-buttons-container">
+                  <button className="social-button .social-button3">
+                    <img
+                      src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' aria-labelledby='title' aria-describedby='desc' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ELinkedin%3C/title%3E%3Cdesc%3EA color styled icon from Orion Icon Library.%3C/desc%3E%3Cpath data-name='layer1' fill='%230077b7' d='M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z'%3E%3C/path%3E%3C/svg%3E"
+                      alt="Linkedin"
+                    />
+                  </button>
+                </div>
+              </div>
             </div>
-            {/* <div class="skills">
-            <h6>Skills</h6>
-            <ul>
-              <li>UI / UX</li>
-              <li>Front End Development</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-          </div> */}
           </div>
-          <div className="card">
-            {/* <span class="pro">PRO</span> */}
-            <img className="round" src={leadImg} alt="user" />
-            <h3>Aman Tiwari</h3>
-            {/* <h6>New York</h6> */}
-            <p>
-              Chapter Lead <br /> @GDSC GHRCE
-            </p>
-            <div className="buttons">
-              <a
-                href="https://www.instagram.com/at_creations10/?hl=en"
-                className="primary"
-                target="__blank"
-              >
-                Linkedin
-              </a>
+          <div className="parent">
+            <div className="ecard">
+              <div className="glass"></div>
+              <div className="content">
+                <span>
+                  <img className="round h-32" src={organizer2} alt="user" />
+                </span>
+                <span className="title">Anmoldeep Singh Arora</span>
+                <span className="text">Salesforce Developer @Persistent Systems</span>
+              </div>
+              <div className="bottom">
+                <div className="social-buttons-container">
+                  <button className="social-button .social-button3">
+                    <img
+                      src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' aria-labelledby='title' aria-describedby='desc' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ELinkedin%3C/title%3E%3Cdesc%3EA color styled icon from Orion Icon Library.%3C/desc%3E%3Cpath data-name='layer1' fill='%230077b7' d='M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z'%3E%3C/path%3E%3C/svg%3E"
+                      alt="Linkedin"
+                    />
+                  </button>
+                </div>
+              </div>
             </div>
-            {/* <div class="skills">
-            <h6>Skills</h6>
-            <ul>
-              <li>UI / UX</li>
-              <li>Front End Development</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-          </div> */}
           </div>
-          <div className="card">
-            {/* <span class="pro">PRO</span> */}
-            <img className="round" src={leadImg} alt="user" />
-            <h3>Aman Tiwari</h3>
-            {/* <h6>New York</h6> */}
-            <p>
-              Chapter Lead <br /> @GDSC GHRCE
-            </p>
-            <div className="buttons">
-              <a
-                href="https://www.instagram.com/at_creations10/?hl=en"
-                className="primary"
-                target="__blank"
-              >
-                Linkedin
-              </a>
+          <div className="parent">
+            <div className="ecard">
+              <div className="glass"></div>
+              <div className="content">
+                <span>
+                  <img className="round h-32" src={organizer2} alt="user" />
+                </span>
+                <span className="title">Anmoldeep Singh Arora</span>
+                <span className="text">Salesforce Developer @Persistent Systems</span>
+              </div>
+              <div className="bottom">
+                <div className="social-buttons-container">
+                  <button className="social-button .social-button3">
+                    <img
+                      src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' aria-labelledby='title' aria-describedby='desc' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ELinkedin%3C/title%3E%3Cdesc%3EA color styled icon from Orion Icon Library.%3C/desc%3E%3Cpath data-name='layer1' fill='%230077b7' d='M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z'%3E%3C/path%3E%3C/svg%3E"
+                      alt="Linkedin"
+                    />
+                  </button>
+                </div>
+              </div>
             </div>
-            {/* <div class="skills">
-            <h6>Skills</h6>
-            <ul>
-              <li>UI / UX</li>
-              <li>Front End Development</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-          </div> */}
           </div>
-          <div className="card">
-            {/* <span class="pro">PRO</span> */}
-            <img className="round" src={leadImg} alt="user" />
-            <h3>Aman Tiwari</h3>
-            {/* <h6>New York</h6> */}
-            <p>
-              Chapter Lead <br /> @GDSC GHRCE
-            </p>
-            <div className="buttons">
-              <a
-                href="https://www.instagram.com/at_creations10/?hl=en"
-                className="primary"
-                target="__blank"
-              >
-                Linkedin
-              </a>
+          <div className="parent">
+            <div className="ecard">
+              <div className="glass"></div>
+              <div className="content">
+                <span>
+                  <img className="round h-32" src={organizer2} alt="user" />
+                </span>
+                <span className="title">Anmoldeep Singh Arora</span>
+                <span className="text">Salesforce Developer @Persistent Systems</span>
+              </div>
+              <div className="bottom">
+                <div className="social-buttons-container">
+                  <button className="social-button .social-button3">
+                    <img
+                      src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' aria-labelledby='title' aria-describedby='desc' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ELinkedin%3C/title%3E%3Cdesc%3EA color styled icon from Orion Icon Library.%3C/desc%3E%3Cpath data-name='layer1' fill='%230077b7' d='M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z'%3E%3C/path%3E%3C/svg%3E"
+                      alt="Linkedin"
+                    />
+                  </button>
+                </div>
+              </div>
             </div>
-            {/* <div class="skills">
-            <h6>Skills</h6>
-            <ul>
-              <li>UI / UX</li>
-              <li>Front End Development</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-          </div> */}
           </div>
-          <div className="card">
-            {/* <span class="pro">PRO</span> */}
-            <img className="round" src={leadImg} alt="user" />
-            <h3>Aman Tiwari</h3>
-            {/* <h6>New York</h6> */}
-            <p>
-              Chapter Lead <br /> @GDSC GHRCE
-            </p>
-            <div className="buttons">
-              <a
-                href="https://www.instagram.com/at_creations10/?hl=en"
-                className="primary"
-                target="__blank"
-              >
-                Linkedin
-              </a>
+          <div className="parent">
+            <div className="ecard">
+              <div className="glass"></div>
+              <div className="content">
+                <span>
+                  <img className="round h-32" src={organizer2} alt="user" />
+                </span>
+                <span className="title">Anmoldeep Singh Arora</span>
+                <span className="text">Salesforce Developer @Persistent Systems</span>
+              </div>
+              <div className="bottom">
+                <div className="social-buttons-container">
+                  <button className="social-button .social-button3">
+                    <img
+                      src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' aria-labelledby='title' aria-describedby='desc' role='img' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3ELinkedin%3C/title%3E%3Cdesc%3EA color styled icon from Orion Icon Library.%3C/desc%3E%3Cpath data-name='layer1' fill='%230077b7' d='M1.15 21.7h13V61h-13zm46.55-1.3c-5.7 0-9.1 2.1-12.7 6.7v-5.4H22V61h13.1V39.7c0-4.5 2.3-8.9 7.5-8.9s8.3 4.4 8.3 8.8V61H64V38.7c0-15.5-10.5-18.3-16.3-18.3zM7.7 2.6C3.4 2.6 0 5.7 0 9.5s3.4 6.9 7.7 6.9 7.7-3.1 7.7-6.9S12 2.6 7.7 2.6z'%3E%3C/path%3E%3C/svg%3E"
+                      alt="Linkedin"
+                    />
+                  </button>
+                </div>
+              </div>
             </div>
-            {/* <div class="skills">
-            <h6>Skills</h6>
-            <ul>
-              <li>UI / UX</li>
-              <li>Front End Development</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-          </div> */}
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

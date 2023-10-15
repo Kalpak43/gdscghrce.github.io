@@ -15,9 +15,10 @@ import FigmaEvent from "./Pages/figma-lifestyle/FIgmaEvent";
 import MainLayout from "./Layouts/MainLayout";
 
 import { FaSun, FaMoon } from "react-icons/fa6";
-import TextBG from "./Components/figmaEvent/TextBG";
+import { Helmet } from "react-helmet";
 
 function App() {
+
   const router = createBrowserRouter([
     {
       path: "/",
@@ -44,10 +45,6 @@ function App() {
       path: "/figma-lifestyle",
       element: <FigmaEvent />
     },
-    {
-      path: "/bg",
-      element: <TextBG />
-    }
   ]);
   
   const storedDarkMode = localStorage.getItem("DARK_MODE");
@@ -61,8 +58,15 @@ function App() {
     AOS.init({ duration: 1500, once: true });
   }, []);
 
+  
+
   return (
     <div className={`App relative ${darkMode ? "dark-theme" : "light-theme"}`}>
+      <Helmet>
+        <title>GDSC GHRCE</title>
+        <meta name="description" content="GDSC GHRCE is a community of students passionate about technology and development. It is a student-led initiative supported by Google Developers, aimed at providing a platform for students to learn, collaborate, and build projects using various Google technologies." data-react-helmet={true}/>
+        {/* <meta name="theme-color" content="#008f68" /> */}
+      </Helmet>
       <RouterProvider router={router} />
       <button className="switch border-2 h-12 aspect-square rounded-full fixed bottom-0 right-0 flex justify-center items-center m-4 mx-8" onClick={() => setDarkMode(!darkMode)}>{darkMode ? <FaSun className="text-2xl" /> : <FaMoon className="text-2xl" />}</button>
     </div>

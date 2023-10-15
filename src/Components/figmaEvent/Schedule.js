@@ -1,88 +1,19 @@
+import TimeCard from "./TimeCard";
+
 export default function Schedule() {
   return (
     <section className="event-schedule" id="schedule">
       <h2>Schedule</h2>
       <div class="timeline text-black font-bold">
-        <div class="flex" data-aos="fade-in">
-          <div class="timeline-item timeline-item-1 border-2 border-black bg-white relative text-center">
-            <div className="time">
-              <div className="flex items-center justify-center">
-                <h4 className=" text-xl">10:00AM</h4>
-              </div>
-            </div>
-            <div className="time-info">
-              <div className="flex items-center justify-center">
-                <p>
-                  Check-in Starts
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex" data-aos="fade-in" data-aos-delay="200">
-          <div class="timeline-item timeline-item-2 h-24 border-2 border-black bg-white relative">
-            <div className="time">
-              <div className="flex items-center justify-center">
-                <h4 className=" text-xl">10:30AM</h4>
-              </div>
-            </div>
-            <div className="time-info">
-              <div className="flex items-center justify-center">
-                <p>
-                  Inaguration Ceremony
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex" data-aos="fade-in" data-aos-delay="400">
-          <div class="timeline-item timeline-item-1 h-24 border-2 border-black bg-white relative">
-            <div className="time">
-              <div className="flex items-center justify-center">
-                <h4 className=" text-xl">11:30AM</h4>
-              </div>
-            </div>
-            <div className="time-info">
-              <div className="flex items-center justify-center">
-                <p>
-                  Speaker Session starts
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex" data-aos="fade-in" data-aos-delay="600">
-          <div class="timeline-item timeline-item-2 h-24 border-2 border-black bg-white relative">
-            <div className="time">
-              <div className="flex items-center justify-center">
-                <h4 className=" text-xl">12:30-1:30AM</h4>
-              </div>
-            </div>
-            <div className="time-info">
-              <div className="flex items-center justify-center">
-                <p>
-                  Break
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex" data-aos="fade-in" data-aos-delay="800">
-          <div class="timeline-item timeline-item-1 timeline-item-last h-24 border-2 border-black bg-white relative">
-            <div className="time">
-              <div className="flex items-center justify-center">
-                <h4 className=" text-xl">5:30AM</h4>
-              </div>
-            </div>
-            <div className="time-info">
-              <div className="flex items-center justify-center">
-                <p>
-                  Event Ends
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <TimeCard time={"8:30AM"} info={"Registration starts"} />
+        <TimeCard time={"9:00-10:00AM"} info={"Breakfast"} />
+        <TimeCard time={"10:00AM-12:00PM"} info={"Session 1 - Figma (Ek Design Ki Kahani)"} />
+        <TimeCard time={"12:00-12:20PM"} info={"Sponsor Talk 1"} />
+        <TimeCard time={"12:30-2:00PM"} info={"Lunch"} />
+        <TimeCard time={"2:00-4:00PM"} info={"Session 2 - Illustrator (Design Ki Duniya Ka Papa)"} />
+        <TimeCard time={"4:00-4:20PM"} info={"Sponsor Talk 2"} />
+        <TimeCard time={"4:30-5:00PM"} info={"Talk by speaker (Revealing soon)"} />
+        <TimeCard time={"5:00-6:00PM"} info={"Valedictory + Price Distribution"} />
       </div>
     </section>
   );

@@ -1,9 +1,64 @@
 import Backgroound from "../Components/Background";
+import LokeshImg from "../Images/faculty-advisors/nekita-chavhan.webp";
+import KartikImg from "../Images/faculty-advisors/pranay-saraf.webp";
+import { FaLinkedin } from "react-icons/fa6";
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen py-16">
-      <div className="flex flex-col min-h-screen justify-center items-center px-2">
+      <div className="flex py-12 flex-col justify-center items-center md:px-60 px-4 text-center">
+        GDSC GHRCE is a community of students passionate about technology and
+        development. It is a student-led initiative supported by Google
+        Developers, aimed at providing a platform for students to learn,
+        collaborate, and build projects using various Google technologies. From
+        workshops on cutting-edge technologies like machine learning, cloud
+        computing, and mobile app development to hackathons that challenge your
+        problem-solving abilities, we have something for everyone.
+      </div>
+      <h2 className="text-4xl text-center font-bold mb-9">
+        Our Faculty Advisors
+      </h2>
+      <div className="mt-8 flex justify-center gap-16 py-4 flex-wrap">
+        <div className="mcard">
+          <div className="">
+            <div className="member-img rounded-full mx-auto border-2">
+              <img src={LokeshImg} className="rounded-full" />
+            </div>
+            <h2 class="text-center text-2xl font-semibold mt-3">
+              Mrs. Nekita Chavan Morris
+            </h2>
+            <p class="text-center mt-1">HOD CSE-DIC</p>
+            <div class="flex justify-center mt-2">
+              <a
+                href="https://www.linkedin.com/in/mrs-nekita-chavan-morris-aa618386/"
+                class="text-blue-600 hover:text-blue-500 mx-3"
+              >
+                <FaLinkedin className="text-xl" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="mcard">
+          <div className="">
+            <div className="member-img rounded-full mx-auto border-2">
+              <img src={KartikImg} className="rounded-full" />
+            </div>
+            <h2 class="text-center text-2xl font-semibold mt-3">
+              Dr. Pranay Saraf
+            </h2>
+            <p class="text-center mt-1">Assitant Professor</p>
+            <div class="flex justify-center mt-2">
+              <a
+                href="https://www.linkedin.com/in/dr-pranay-deepak-saraf-7238386a/"
+                class="text-blue-600 hover:text-blue-500 mx-3"
+              >
+                <FaLinkedin className="text-xl" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex py-12 flex-col justify-center items-center px-2">
         <div className="que collapse collapse-plus md:w-2/3">
           <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">Who We Are?</div>
@@ -81,7 +136,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <Backgroound/>
+      <Backgroound />
     </div>
   );
 };

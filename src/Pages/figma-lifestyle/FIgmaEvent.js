@@ -1,33 +1,54 @@
-import Hero from "../../Components/figmaEvent/Hero"
-import Navbar from "../../Components/figmaEvent/Navbar"
-import About from "../../Components/figmaEvent/About"
-import StaryBg from "../../Components/figmaEvent/StaryBg"
-import "./figmaEvent.css"
-import Speakers from "../../Components/figmaEvent/Speakers"
-import Contact from "../../Components/figmaEvent/Contact"
-import SmokeBG from "../../Components/figmaEvent/SmokeBG"
-import Schedule from "../../Components/figmaEvent/Schedule"
-import Sponsors from "../../Components/figmaEvent/Sponsors"
-import Organizers from "../../Components/figmaEvent/Organizers"
-import TextBG from "../../Components/figmaEvent/TextBG"
+import Hero from "../../Components/figmaEvent/Hero";
+import Navbar from "../../Components/figmaEvent/Navbar";
+import About from "../../Components/figmaEvent/About";
+import "./figmaEvent.css";
+import Speakers from "../../Components/figmaEvent/Speakers";
+import Schedule from "../../Components/figmaEvent/Schedule";
+import Sponsors from "../../Components/figmaEvent/Sponsors";
+import Organizers from "../../Components/figmaEvent/Organizers";
+import Footer from "../../Components/figmaEvent/Footer";
+import ShapesBG from "../../Components/figmaEvent/ShapesBG";
+import Perks from "../../Components/figmaEvent/Perks";
+import { useEffect, useState } from "react";
+import Loader from "../../Components/figmaEvent/Loader";
+import { Helmet } from "react-helmet";
 
-export default function FigmaEvent () {
+export default function FigmaEvent() {
 
-    document.title = "Figma Lifestyle"
+  const [isLoading, setIsLoading] = useState(true);
 
-    return (
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1500);
+  }, []);
+
+  return (
+    <div>
+      <Helmet>
+        <title>Figma Lifestyle</title>
+        <meta
+          name="description"
+          content="Figma Lifestyle with GDSC is a dynamic event that celebrates the fusion of design and technology. It's an opportunity for participants to explore the world of design, learn from industry experts, and collaborate with fellow enthusiasts. This event promises to be a day filled with creativity, innovation, and networking. Join us in making this event a memorable and enriching experience for all participants."
+        />
+        {/* <meta name="theme-color" content="#008f68" /> */}
+      </Helmet>
+      {isLoading ? (
+        <Loader />
+      ) : (
         <div className="figmaEvent">
-            {/* <TextBG /> */}
-            {/* <SmokeBG /> */}
-            <StaryBg />
-            <Navbar />
-            <Hero />
-            <Sponsors />
-            <About />
-            <Speakers />
-            <Organizers />
-            <Schedule />
-            <Contact />
+          <ShapesBG />
+          <Navbar />
+          <Hero />
+          <Sponsors />
+          <About />
+          <Speakers />
+          <Organizers />
+          <Schedule />
+          <Perks />
+          <Footer />
         </div>
-    )
+      )}
+    </div>
+  );
 }

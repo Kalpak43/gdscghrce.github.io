@@ -2,17 +2,25 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [expanded, setExpanded] = useState(false);
-  console.log(expanded)
 
+  const setNavBtn = () => {
+    const checkBox = document.getElementById("check")
+    checkBox.checked = !expanded
+  }
 
   return (
     <header className="nav sticky top-0">
       <nav className="navigation">
         <div className="pos navB" id="navB">
           <label htmlFor="check">
-            <input type="checkbox" id="check" onClick={() => {
-            setExpanded(!expanded);
-          }}/>
+            <input
+              type="checkbox"
+              id="check"
+              onClick={() => {
+                setExpanded(!expanded);
+                setNavBtn()
+              }}
+            />
             <span></span>
             <span></span>
             <span></span>
@@ -41,20 +49,45 @@ export default function Navbar() {
           className={expanded ? "navigation-menu expanded" : "navigation-menu"}
         >
           <ul>
-            <li>
+            <li
+              onClick={() => {
+                setExpanded(!expanded);
+                setNavBtn()
+              }}
+            >
               <a href="/figma-lifestyle#home">Home</a>
             </li>
-            <li>
+            <li
+              onClick={() => {
+                setExpanded(!expanded);
+                setNavBtn()
+              }}
+            >
               <a href="/figma-lifestyle#about">About</a>
             </li>
-            <li>
+            <li
+              onClick={() => {
+                setExpanded(!expanded);
+                setNavBtn()
+              }}
+            >
               <a href="/figma-lifestyle#speakers">Speakers</a>
             </li>
-            <li>
-              <a href="/figma-lifestyle#schedule">Schedule</a>
+            <li
+              onClick={() => {
+                setExpanded(!expanded);
+                setNavBtn()
+              }}
+            >
+              <a href="/figma-lifestyle#organizers">Organizers</a>
             </li>
-            <li>
-              <a href="/figma-lifestyle#contactus">Contact</a>
+            <li
+              onClick={() => {
+                setExpanded(!expanded);
+                setNavBtn()
+              }}
+            >
+              <a href="/figma-lifestyle#schedule">Schedule</a>
             </li>
           </ul>
         </div>
