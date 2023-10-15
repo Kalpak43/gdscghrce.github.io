@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.576a3198.css",
-    "main.js": "/static/js/main.65a835ef.js",
+    "main.css": "/static/css/main.62db92fc.css",
+    "main.js": "/static/js/main.b039adcc.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/HarshChaudhari.png": "/static/media/HarshChaudhari.56448186d38f47aefc8a.png",
     "static/media/PCUI.svg": "/static/media/PCUI.546617719b7b3bb35a6e8651d327ba36.svg",
@@ -53,16 +53,17 @@
     "static/media/KalpakGoshikwar.webp": "/static/media/KalpakGoshikwar.901250e54b629595a7f6.webp",
     "static/media/ProductSans-Regular.woff2": "/static/media/ProductSans-Regular.9ccaabc5abc3920047b7.woff2",
     "static/media/nekita-chavhan.webp": "/static/media/nekita-chavhan.2474758133e683bc8cfe.webp",
+    "static/media/codon_logo.png": "/static/media/codon_logo.57b863e5a725821643d1.png",
     "static/media/ShreerangKolhe.webp": "/static/media/ShreerangKolhe.9cd9ed3d6e6e2140426d.webp",
     "static/media/PayalPande.webp": "/static/media/PayalPande.d246c1ce16218183f5d2.webp",
     "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "index.html": "/index.html",
-    "main.576a3198.css.map": "/static/css/main.576a3198.css.map",
-    "main.65a835ef.js.map": "/static/js/main.65a835ef.js.map",
+    "main.62db92fc.css.map": "/static/css/main.62db92fc.css.map",
+    "main.b039adcc.js.map": "/static/js/main.b039adcc.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.576a3198.css",
-    "static/js/main.65a835ef.js"
+    "static/css/main.62db92fc.css",
+    "static/js/main.b039adcc.js"
   ]
 }
