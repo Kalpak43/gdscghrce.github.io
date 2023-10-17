@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.17da419e.css",
-    "main.js": "/static/js/main.4bc3a4c1.js",
+    "main.css": "/static/css/main.6961168b.css",
+    "main.js": "/static/js/main.5732faba.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/HarshChaudhari.png": "/static/media/HarshChaudhari.56448186d38f47aefc8a.png",
     "static/media/PCUI.svg": "/static/media/PCUI.546617719b7b3bb35a6e8651d327ba36.svg",
@@ -27,6 +27,7 @@
     "static/media/FlutterNagpur_logo.png": "/static/media/FlutterNagpur_logo.4a3d5a2764b26791ecf4.png",
     "static/media/event2.jpg": "/static/media/event2.62da1f21c017857e09c3.jpg",
     "static/media/team.jpeg": "/static/media/team.8cb5c555fba7b79ebe7d.jpeg",
+    "static/media/IEEE_CIS_GHRCElogo.png": "/static/media/IEEE_CIS_GHRCElogo.39793d7e6ee394cbfa5d.png",
     "static/media/KrutikaNavghare.png": "/static/media/KrutikaNavghare.b38f1cf8efc203eae977.png",
     "static/media/gdsc_ghrce_logo_full.png": "/static/media/gdsc_ghrce_logo_full.92e7433a5302691d173d.png",
     "static/media/figmaLifestyle_Logo(BG_white).jpeg": "/static/media/figmaLifestyle_Logo(BG_white).cdf46dde898e4a54c6d7.jpeg",
@@ -57,12 +58,12 @@
     "static/media/PayalPande.webp": "/static/media/PayalPande.d246c1ce16218183f5d2.webp",
     "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "index.html": "/index.html",
-    "main.17da419e.css.map": "/static/css/main.17da419e.css.map",
-    "main.4bc3a4c1.js.map": "/static/js/main.4bc3a4c1.js.map",
+    "main.6961168b.css.map": "/static/css/main.6961168b.css.map",
+    "main.5732faba.js.map": "/static/js/main.5732faba.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17da419e.css",
-    "static/js/main.4bc3a4c1.js"
+    "static/css/main.6961168b.css",
+    "static/js/main.5732faba.js"
   ]
 }
