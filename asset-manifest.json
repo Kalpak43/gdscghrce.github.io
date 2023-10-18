@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2ec086c5.css",
-    "main.js": "/static/js/main.eb06e412.js",
+    "main.js": "/static/js/main.ee817ddd.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/HarshChaudhari.png": "/static/media/HarshChaudhari.56448186d38f47aefc8a.png",
     "static/media/PCUI.svg": "/static/media/PCUI.546617719b7b3bb35a6e8651d327ba36.svg",
@@ -35,6 +35,7 @@
     "static/media/Upcoming_evens.jpg": "/static/media/Upcoming_evens.ceecda304d24a86e6844.jpg",
     "static/media/LaabhanshJaiswal.png": "/static/media/LaabhanshJaiswal.f1c85336da2dbc035f99.png",
     "static/media/Phone UI.jpeg": "/static/media/Phone UI.b28b27c045f7ab69c286.jpeg",
+    "static/media/ShivamJoshi.jpeg": "/static/media/ShivamJoshi.5d1ce4fd8902710f8158.jpeg",
     "static/media/Flat iPhone.png": "/static/media/Flat iPhone.7de6243d862940b7983d.png",
     "static/media/RutujaBalpande.webp": "/static/media/RutujaBalpande.e7c1b0c2e4325f9f35d9.webp",
     "static/media/WebwithDSC.webp": "/static/media/WebwithDSC.d30e2a658a9386e69118.webp",
@@ -60,11 +61,11 @@
     "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "index.html": "/index.html",
     "main.2ec086c5.css.map": "/static/css/main.2ec086c5.css.map",
-    "main.eb06e412.js.map": "/static/js/main.eb06e412.js.map",
+    "main.ee817ddd.js.map": "/static/js/main.ee817ddd.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ec086c5.css",
-    "static/js/main.eb06e412.js"
+    "static/js/main.ee817ddd.js"
   ]
 }
