@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e226ad1.css",
-    "main.js": "/static/js/main.7c5f17c2.js",
+    "main.css": "/static/css/main.eeaa3615.css",
+    "main.js": "/static/js/main.456666f0.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/HarshChaudhari.png": "/static/media/HarshChaudhari.56448186d38f47aefc8a.png",
     "static/media/PCUI.svg": "/static/media/PCUI.546617719b7b3bb35a6e8651d327ba36.svg",
@@ -34,6 +34,7 @@
     "static/media/figmaLifestyle_Logo(BG_white).jpeg": "/static/media/figmaLifestyle_Logo(BG_white).cdf46dde898e4a54c6d7.jpeg",
     "static/media/Upcoming_evens.jpg": "/static/media/Upcoming_evens.ceecda304d24a86e6844.jpg",
     "static/media/LaabhanshJaiswal.png": "/static/media/LaabhanshJaiswal.f1c85336da2dbc035f99.png",
+    "static/media/Cinderbay_logo.png": "/static/media/Cinderbay_logo.9d0f90cf02d2dd00f80a.png",
     "static/media/Phone UI.jpeg": "/static/media/Phone UI.b28b27c045f7ab69c286.jpeg",
     "static/media/ShivamJoshi.jpeg": "/static/media/ShivamJoshi.5d1ce4fd8902710f8158.jpeg",
     "static/media/Flat iPhone.png": "/static/media/Flat iPhone.7de6243d862940b7983d.png",
@@ -60,12 +61,12 @@
     "static/media/PayalPande.webp": "/static/media/PayalPande.d246c1ce16218183f5d2.webp",
     "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "index.html": "/index.html",
-    "main.2e226ad1.css.map": "/static/css/main.2e226ad1.css.map",
-    "main.7c5f17c2.js.map": "/static/js/main.7c5f17c2.js.map",
+    "main.eeaa3615.css.map": "/static/css/main.eeaa3615.css.map",
+    "main.456666f0.js.map": "/static/js/main.456666f0.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e226ad1.css",
-    "static/js/main.7c5f17c2.js"
+    "static/css/main.eeaa3615.css",
+    "static/js/main.456666f0.js"
   ]
 }
