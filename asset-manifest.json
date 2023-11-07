@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f581ccc9.css",
-    "main.js": "/static/js/main.80f53380.js",
+    "main.css": "/static/css/main.16247c25.css",
+    "main.js": "/static/js/main.b9e0953a.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/HarshChaudhari.png": "/static/media/HarshChaudhari.56448186d38f47aefc8a.png",
     "static/media/PCUI.svg": "/static/media/PCUI.546617719b7b3bb35a6e8651d327ba36.svg",
@@ -35,15 +35,14 @@
     "static/media/KrutikaNavghare.png": "/static/media/KrutikaNavghare.b38f1cf8efc203eae977.png",
     "static/media/img-4.jpeg": "/static/media/img-4.1d0b1cfe14df2cdf05ea.jpeg",
     "static/media/gdsc_ghrce_logo_full.png": "/static/media/gdsc_ghrce_logo_full.92e7433a5302691d173d.png",
-    "static/media/img-6.jpeg": "/static/media/img-6.ab25dcebc2a35f8dccd6.jpeg",
     "static/media/certificate-image-2.jpeg": "/static/media/certificate-image-2.3b35d78ad7886b148ba7.jpeg",
     "static/media/figmaLifestyle_Logo(BG_white).jpeg": "/static/media/figmaLifestyle_Logo(BG_white).cdf46dde898e4a54c6d7.jpeg",
     "static/media/Upcoming_evens.jpg": "/static/media/Upcoming_evens.ceecda304d24a86e6844.jpg",
     "static/media/LaabhanshJaiswal.png": "/static/media/LaabhanshJaiswal.f1c85336da2dbc035f99.png",
     "static/media/Cinderbay_logo.png": "/static/media/Cinderbay_logo.9d0f90cf02d2dd00f80a.png",
     "static/media/img-5.jpeg": "/static/media/img-5.aa9910711a51629fdcd8.jpeg",
+    "static/media/img-6.jpeg": "/static/media/img-6.17debc3d6e09ab95980c.jpeg",
     "static/media/img-1.jpeg": "/static/media/img-1.cf92bc972a305da04ae2.jpeg",
-    "static/media/img-10.jpeg": "/static/media/img-10.3b17d33b109fe1fbaf30.jpeg",
     "static/media/Phone UI.jpeg": "/static/media/Phone UI.b28b27c045f7ab69c286.jpeg",
     "static/media/img-7.jpeg": "/static/media/img-7.db5de3650f79b65a50aa.jpeg",
     "static/media/ShivamJoshi.jpeg": "/static/media/ShivamJoshi.5d1ce4fd8902710f8158.jpeg",
@@ -55,6 +54,7 @@
     "static/media/WebwithDSC.webp": "/static/media/WebwithDSC.d30e2a658a9386e69118.webp",
     "static/media/TabUI.png": "/static/media/TabUI.48d0dae5f09224c285d4.png",
     "static/media/handshake.png": "/static/media/handshake.2dcc9aa284ddeb380bc6.png",
+    "static/media/img-10.jpeg": "/static/media/img-10.5381b12eb4c32388ddac.jpeg",
     "static/media/ShaileshThakur.webp": "/static/media/ShaileshThakur.ed0414e5515d72571e14.webp",
     "static/media/GCSJ_logo.webp": "/static/media/GCSJ_logo.1b293c93398776720ba6.webp",
     "static/media/figmaLifestyleLogo.png": "/static/media/figmaLifestyleLogo.be9a9e47b50da59cba72.png",
@@ -76,12 +76,12 @@
     "static/media/PayalPande.webp": "/static/media/PayalPande.d246c1ce16218183f5d2.webp",
     "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "index.html": "/index.html",
-    "main.f581ccc9.css.map": "/static/css/main.f581ccc9.css.map",
-    "main.80f53380.js.map": "/static/js/main.80f53380.js.map",
+    "main.16247c25.css.map": "/static/css/main.16247c25.css.map",
+    "main.b9e0953a.js.map": "/static/js/main.b9e0953a.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f581ccc9.css",
-    "static/js/main.80f53380.js"
+    "static/css/main.16247c25.css",
+    "static/js/main.b9e0953a.js"
   ]
 }
