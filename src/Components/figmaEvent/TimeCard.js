@@ -1,7 +1,7 @@
-export default function TimeCard({ time, info }) {
+export default function TimeCard({ time, info, key }) {
 
   return (
-    <div class="flex" data-aos="fade-in">
+    <div class="flex" data-aos="fade-in" key={key}>
       <div class="timeline-item timeline-item-1 border-2 border-black bg-white relative text-center">
         <div className="time">
           <div className="flex items-center justify-center">

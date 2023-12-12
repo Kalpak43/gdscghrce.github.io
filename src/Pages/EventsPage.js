@@ -1,7 +1,7 @@
 import event_img from "../Images/Upcoming_evens.jpg";
 import gdsj from "../Images/GCSJ_logo.webp";
 import FL from "../Images/figmaLifestyle_Logo(BG_white).jpeg";
-import webDSC from "../Images/WebwithDSC.webp";
+import SC_24 from "../Images/SolutionChallenge_2024.webp";
 import { FaLinkedin, FaLocationDot, FaCalendarCheck } from "react-icons/fa6";
 import { useState } from "react";
 
@@ -11,6 +11,94 @@ const EventsPage = () => {
       <h1 className="text-4xl text-center font-bold">
         Upcoming / Ongoing Events
       </h1>
+      <div className="my-8 flex justify-center text-center gap-16 py-4 flex-wrap">
+        {/* No Upcoming Events.
+          <br/>
+          Follow us to stay updated. */}
+        <div className="mcard">
+          <div class="">
+            <div className="member-img mx-auto">
+              <img src={SC_24} className="" />
+            </div>
+            <h2 class="text-center text-lg font-semibold mt-3">
+              Google Solution Challenge 2024
+            </h2>
+            <p class="text-center my-1 flex gap-2 items-center justify-center mb-4">
+              {/* <FaCalendarCheck /> */}
+              1st Dec - 20th Jan, 2023
+            </p>
+            {/* <p class="text-center mb-4">
+              <FaLocationDot className="inline text-lg mb-1" /> Virtual
+            </p> */}
+            {/* <p className="text-justify">
+              Figma Lifestyle with GDSC is a dynamic event that celebrates the
+              fusion of design and technology. It's an opportunity for
+              participants to explore the world of design, learn from industry
+              experts, and collaborate with fellow enthusiasts. This event
+              promises to be a day filled with creativity, innovation, and
+              networking. Join us in making this event a memorable and enriching
+              experience for all participants.
+            </p> */}
+            <a
+              href="https://rebrand.ly/noydh3d"
+              className="about-btn mx-2 bg-transparent"
+            >
+              Register Now
+            </a>
+            {/* <div className="text-center mx-auto p-3 py-8">
+              <a
+                href="https://gdsc.community.dev/events/details/developer-student-clubs-gh-raisoni-college-of-engineering-nagpur-presents-green-flag-to-google-solution-challenge-2024/"
+                className="about-btn mx-2 bg-transparent"
+              >
+                Register Now
+              </a>
+            </div> */}
+          </div>
+        </div>
+        <div className="mcard">
+          <div class="">
+            <div className="member-img mx-auto">
+              <img src={SC_24} className="" />
+            </div>
+            <h2 class="text-center text-lg font-semibold mt-3">
+              Green Flag to Google Solution Challenge 2024
+            </h2>
+            <p class="text-center my-1 flex gap-2 items-center justify-center">
+              {/* <FaCalendarCheck /> */}
+              28th Dec, 2023
+            </p>
+            <p class="text-center mb-4">
+              <FaLocationDot className="inline text-lg mb-1" /> Virtual
+            </p>
+            {/* <p className="text-justify">
+              Figma Lifestyle with GDSC is a dynamic event that celebrates the
+              fusion of design and technology. It's an opportunity for
+              participants to explore the world of design, learn from industry
+              experts, and collaborate with fellow enthusiasts. This event
+              promises to be a day filled with creativity, innovation, and
+              networking. Join us in making this event a memorable and enriching
+              experience for all participants.
+            </p> */}
+            <a
+              href="https://gdsc.community.dev/events/details/developer-student-clubs-gh-raisoni-college-of-engineering-nagpur-presents-green-flag-to-google-solution-challenge-2024/"
+              className="about-btn mx-2 bg-transparent"
+            >
+              RSVP Now
+            </a>
+            {/* <div className="text-center mx-auto p-3 py-8">
+              <a
+                href="https://gdsc.community.dev/events/details/developer-student-clubs-gh-raisoni-college-of-engineering-nagpur-presents-green-flag-to-google-solution-challenge-2024/"
+                className="about-btn mx-2 bg-transparent"
+              >
+                RSVP Now
+              </a>
+            </div> */}
+          </div>
+        </div>
+      </div>
+    </div>,
+    <div className="past-events">
+      <h1 className="text-4xl text-center font-bold">Past Events</h1>
       <div className="my-8 flex justify-center gap-16 py-4 flex-wrap">
         <div className="mcard">
           <div class="">
@@ -21,13 +109,13 @@ const EventsPage = () => {
               Figma Lifestyle
             </h2>
             <p class="text-center my-1 flex gap-2 items-center justify-center">
-              <FaCalendarCheck />
+              {/* <FaCalendarCheck /> */}
               21st Oct, 2023
             </p>
             <p class="text-center mb-4">
-              <FaLocationDot className="inline text-lg mb-1" /> Persistent Systems, Nagpur
+              <FaLocationDot className="inline text-lg mb-1" /> IT Park, Nagpur
             </p>
-            <p className="text-justify">
+            {/* <p className="text-justify">
               Figma Lifestyle with GDSC is a dynamic event that celebrates the
               fusion of design and technology. It's an opportunity for
               participants to explore the world of design, learn from industry
@@ -35,28 +123,23 @@ const EventsPage = () => {
               promises to be a day filled with creativity, innovation, and
               networking. Join us in making this event a memorable and enriching
               experience for all participants.
-            </p>
-            <div className="text-center mx-auto p-3 py-8">
+            </p> */}
+            <a
+              href="/events/figma-lifestyle"
+              className="about-btn mx-2 bg-transparent"
+            >
+              Learn More
+            </a>
+            {/* <div className="text-center mx-auto p-3 py-8">
               <a
-                href="https://lu.ma/Figma_Lifestyle_with_GDSC_GHRCE"
-                className="about-btn mx-2"
-              >
-                Register Now
-              </a>
-              <a
-                href="/figma-lifestyle"
+                href="/events/figma-lifestyle"
                 className="about-btn mx-2 bg-transparent"
               >
                 Learn More
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
-      </div>
-    </div>,
-    <div className="past-events">
-      <h1 className="text-4xl text-center font-bold">Past Events</h1>
-      <div className="my-8 flex justify-center gap-16 py-4 flex-wrap">
         <div className="mcard">
           <div class="">
             <div className="member-img mx-auto">
@@ -87,7 +170,7 @@ const EventsPage = () => {
             </p>
           </div>
         </div>
-        <div className="mcard">
+        {/* <div className="mcard">
           <div class="">
             <div className="member-img rounded-full mx-auto">
               <img src={webDSC} className="" />
@@ -101,7 +184,7 @@ const EventsPage = () => {
               College of Engineering - Nagpur
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>,
   ];

@@ -47,14 +47,13 @@ export default function Perks() {
       </div>
       <br/>
       <br/>
-      <p className="text-xl font-bold">{days + 1} days till the event</p>
-      <p className="text-xl font-bold">We will be waiting for you.</p>
-      <a
+      {/* <p className="text-xl font-bold">We will be waiting for you.</p> */}
+      {/* <a
         className="reg-btn font-bold"
-        href="https://lu.ma/Figma_Lifestyle_with_GDSC_GHRCE"
+        href="https://forms.gle/nziiMdZQSn1kXgkH7"
       >
         Register Here
-      </a>
+      </a> */}
     </section>
   );
 }

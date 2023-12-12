@@ -26,8 +26,6 @@ export default function Loader() {
         {hexGrp}
         {hexGrp}
       </div>
-      <p className="text-xl font-bold">Hurry up!!! </p>
-      <p className="text-xl font-bold text-center">Registration ends in {days} days.</p>
       <br/>
       <br/>
       <br/>

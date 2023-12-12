@@ -55,7 +55,7 @@ export default function Navbar() {
                 setNavBtn()
               }}
             >
-              <a href="/figma-lifestyle#home">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li
               onClick={() => {
@@ -63,7 +63,7 @@ export default function Navbar() {
                 setNavBtn()
               }}
             >
-              <a href="/figma-lifestyle#about">About</a>
+              <a href="#about">About</a>
             </li>
             <li
               onClick={() => {
@@ -71,7 +71,7 @@ export default function Navbar() {
                 setNavBtn()
               }}
             >
-              <a href="/figma-lifestyle#speakers">Speakers</a>
+              <a href="#speakers">Speakers</a>
             </li>
             <li
               onClick={() => {
@@ -79,7 +79,7 @@ export default function Navbar() {
                 setNavBtn()
               }}
             >
-              <a href="/figma-lifestyle#organizers">Organizers</a>
+              <a href="#organizers">Organizers</a>
             </li>
             <li
               onClick={() => {
@@ -87,7 +87,7 @@ export default function Navbar() {
                 setNavBtn()
               }}
             >
-              <a href="/figma-lifestyle#schedule">Schedule</a>
+              <a href="#schedule">Schedule</a>
             </li>
           </ul>
         </div>

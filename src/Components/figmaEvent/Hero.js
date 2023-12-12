@@ -2,12 +2,13 @@ import PhoneUI from "../../Images/PhoneUI.svg";
 import TabUI from "../../Images/TabUI.png";
 import PCUI from "../../Images/PCUI.svg";
 import logo from "../../Images/gdsc_ghrce_logo_full.png";
-import { FaCalendarCheck } from "react-icons/fa6";
+import { FaCalendarCheck, FaArrowDownLong } from "react-icons/fa6";
 import eventLogo from "../../Images/figmaLifestyleLogo.png";
+import flatPhone from "../../Images/Flat iPhone.png";
 
 export default function Hero() {
   return (
-    <section className="event-hero" id="home">
+    <section className="event-hero relative" id="home">
       <div className="hero-l" data-aos="fade-up">
         <div className="hero-title flex flex-col items-center">
           <div className="gdsc">
@@ -56,9 +57,10 @@ export default function Hero() {
             21st October, 2023
           </p>
         </div>
-        <a className="reg-btn font-bold" href="https://lu.ma/Figma_Lifestyle_with_GDSC_GHRCE">
+        {/* <a className="reg-btn font-bold" href="https://forms.gle/nziiMdZQSn1kXgkH7">
           Register Now
-        </a>
+        </a> */}
+        {/* <b className="text-xl">Registrations Closed</b> */}
       </div>
       <div className="hero-img flex justify-center items-center">
         <div className="phone">
@@ -72,6 +74,11 @@ export default function Hero() {
             <img src={TabUI} />
           </div>
         </div>
+      </div>
+      <div className="animate absolute bottom-[10%] w-full">
+        <a href="#sponsors">
+        <FaArrowDownLong className="text-4xl mx-auto"/>
+        </a>
       </div>
     </section>
   );

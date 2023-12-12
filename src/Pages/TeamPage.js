@@ -1,4 +1,3 @@
-import { FaLinkedin } from "react-icons/fa6";
 import { useState } from "react";
 
 import ManagementTeam from "../Components/Teams/ManagementTeam";
@@ -10,6 +9,7 @@ import DesignTeam from "../Components/Teams/DesignTeam";
 import DsaTeam from "../Components/Teams/DsaTeam";
 
 import leadImg from "../Images/members/AmanTiwari.png";
+import MemberCard from "../Components/MemberCard";
 
 const TeamPage = () => {
   const teamsArr = [
@@ -35,7 +35,7 @@ const TeamPage = () => {
       <div className="relative Background">
         <h4 className="text-center font-bold text-2xl py-4">Lead</h4>
         <div className=" flex justify-center py-4">
-          <div className="mcard">
+          {/* <div className="mcard">
             <div className="relative z-20">
               <div className="member-img rounded-full mx-auto border-2">
                 <img src={leadImg} className="rounded-full" />
@@ -44,16 +44,17 @@ const TeamPage = () => {
                 Aman Brijbhushan Tiwari
               </h2>
               <p className="text-center mt-1">Lead</p>
-              <div className="flex justify-center mt-2">
+              <div class="flex justify-center mt-2 mx-auto">
                 <a
                   href="https://www.linkedin.com/in/amantiwari2091/"
-                  className="text-blue-600 hover:text-blue-500 mx-3"
+                  class="text-blue-600 hover:text-blue-500 mx-3"
                 >
                   <FaLinkedin className="text-xl" />
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
+          <MemberCard img={leadImg} name={"Aman Tiwari"} position="Lead" link={"https://www.linkedin.com/in/amantiwari2091/"} />
         </div>
 
         <div className="flex justify-center flex-wrap gap-4 text-lg py-4">

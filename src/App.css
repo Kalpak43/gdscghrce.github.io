@@ -47,7 +47,7 @@ html {
   z-index: 999;
 }
 
-.Background {
+.Background, .Certificate-Page {
   background-color: var(--bg-color);
 }
 
@@ -91,6 +91,7 @@ header {
   cursor: pointer;
   padding: 5px;
   border: var(--offset) solid #0000;
+
   --_m: radial-gradient(
     50% 50%,
     #000 calc(100% - var(--offset)),
@@ -504,6 +505,15 @@ header {
 
 
 
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00000058;
+}
+
 
 /* TEAMPAGE SECTION */
 .member-card {
@@ -681,7 +691,7 @@ header {
 }
 
 .ongoing-events .mcard {
-  min-height: 600px;
+  min-height: 350px;
 }
 
 .ongoing-events .about-btn {
@@ -694,6 +704,10 @@ header {
   border: 2px solid var(--dsc-logo-red);
 }
 
+.past-events .mcard{
+  min-height: 400px;
+}
+
 /* END EVENTSPAGE */
 
 
@@ -703,3 +717,57 @@ header {
   background-color: var(--bg-color);
 }
 /* END FOOTER */
+
+
+
+
+
+
+
+
+
+
+/* Certificate Page */
+.Certificate-Page .grid {
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(4, 1fr);
+  
+  max-width: 100%;
+  /* max-width: 50; */
+}
+
+.Certificate-Page .grid p {
+  padding: 0.5rem;
+  border: 2px solid var(--default-font-color);
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+
+  overflow-wrap: anywhere;
+}
+
+.Certificate-Page .grid p:nth-child(odd) {
+  border-right: 0;
+  border-top: 0;
+  font-weight: bold;
+}
+
+.Certificate-Page .grid p:nth-child(even) {
+  border-top: 0;
+}
+
+.Certificate-Page .grid p:nth-child(1), .Certificate-Page .grid p:nth-child(2) {
+  border-top: 2px solid var(--default-font-color);
+}
+
+@media screen and (max-width: 600px) {
+
+  .Certificate-Page .grid p {
+    font-size: 1rem;
+  }
+}
+
+
+.ErrorPage {
+  background-color: var(--bg-color);
+}

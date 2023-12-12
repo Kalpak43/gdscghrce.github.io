@@ -16,6 +16,11 @@ import MainLayout from "./Layouts/MainLayout";
 
 import { FaSun, FaMoon } from "react-icons/fa6";
 import { Helmet } from "react-helmet";
+import EventCertificate from "./Pages/figma-lifestyle/EventCertificate";
+import CloudStudyJam from "./Pages/EventCertificates/CloudStudyJam";
+import CloudStudyJamVolunteer from "./Pages/EventCertificates/CloudStudyJamVolunteer";
+import HacktoberfestVolunteer from "./Pages/EventCertificates/HacktoberfestVolunteer";
+import CoreConfluenceVolunteer from "./Pages/EventCertificates/CoreConfluenceVolunteer";
 
 function App() {
 
@@ -42,8 +47,28 @@ function App() {
       element: <MainLayout page={ContactPage} />,
     },
     {
-      path: "/figma-lifestyle",
+      path: "/events/figma-lifestyle",
       element: <FigmaEvent />
+    },
+    {
+      path: "/events/figma-lifestyle/certificate/:refID",
+      element: <MainLayout page={EventCertificate} />
+    },
+    {
+      path: "/events/cloud-study-jams/certificate/:refID",
+      element: <MainLayout page={CloudStudyJam} />
+    },
+    {
+      path: "/events/cloud-study-jams/volunteer-certificate/:refID",
+      element: <MainLayout page={CloudStudyJamVolunteer} />
+    },
+    {
+      path: "/events/hacktoberfest/volunteer-certificate/:refID",
+      element: <MainLayout page={HacktoberfestVolunteer} />
+    },
+    {
+      path: "/events/core-confluence/volunteer-certificate/:refID",
+      element: <MainLayout page={CoreConfluenceVolunteer} />
     },
   ]);
   

@@ -1,6 +1,6 @@
 import {
   FaLinkedin,
-  FaTwitter,
+  FaXTwitter,
   FaYoutube,
   FaDiscord,
   FaInstagram,
@@ -27,7 +27,7 @@ export default function Footer() {
                   className="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <FaTwitter className="text-xl text-blue-400" />
+                  <FaXTwitter className="text-xl text-black"/>
                 </a>
                 <a
                   href="https://www.linkedin.com/company/gdsc-ghrce/"
@@ -80,23 +80,15 @@ export default function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://lu.ma/Figma_Lifestyle_with_GDSC_GHRCE"
-                    >
-                      Register
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       href="/about"
                     >
-                      About
+                      About Us
                     </a>
                   </li>
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="/team"
+                      href="#speakers"
                     >
                       Speaker
                     </a>
@@ -112,9 +104,9 @@ export default function Footer() {
                   <li>
                     <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="/contactus"
+                      href="https://gdsc.community.dev/gh-raisoni-college-of-engineering-nagpur/"
                     >
-                      Contact Us
+                      Join Us
                     </a>
                   </li>
                 </ul>

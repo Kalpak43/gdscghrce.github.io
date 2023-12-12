@@ -12,6 +12,7 @@ import Perks from "../../Components/figmaEvent/Perks";
 import { useEffect, useState } from "react";
 import Loader from "../../Components/figmaEvent/Loader";
 import { Helmet } from "react-helmet";
+import Glimpse from "../../Components/figmaEvent/Glimpse";
 
 export default function FigmaEvent() {
 
@@ -46,6 +47,7 @@ export default function FigmaEvent() {
           <Organizers />
           <Schedule />
           <Perks />
+          <Glimpse />
           <Footer />
         </div>
       )}

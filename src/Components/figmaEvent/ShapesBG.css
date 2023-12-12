@@ -33,7 +33,7 @@
 .svg:nth-child(1) {
     left: 94%;
     animation: raise1 11s linear infinite;
-    animation-delay: -4s;
+    animation-delay: 1s;
     transform: scale(-0.3) rotate(126deg);
     z-index: -6;
     filter: blur(-5px);
@@ -48,7 +48,7 @@
     stroke: none;
     left: 99%;
     animation: raise2 10s linear infinite;
-    animation-delay: 0s;
+    animation-delay: 1s;
     transform: scale(4);
     z-index: -5;
     filter: blur(-4px);
@@ -62,7 +62,7 @@
 .svg:nth-child(3) {
     left: 87%;
     animation: raise3 8s linear infinite;
-    animation-delay: -4s;
+    animation-delay: 0s;
     transform: scale(0.3) rotate(118deg);
     z-index: -4;
     filter: blur(-3px);
@@ -77,7 +77,7 @@
 .svg:nth-child(4) {
     left: -3%;
     animation: raise4 21s linear infinite;
-    animation-delay: -4s;
+    animation-delay: 1s;
     transform: scale(0.6) rotate(35deg);
     z-index: -3;
     filter: blur(-2px);
@@ -92,7 +92,7 @@
 .svg:nth-child(5) {
     left: 66%;
     animation: raise5 20s linear infinite;
-    animation-delay: -3s;
+    animation-delay: -1s;
     transform: scale(0.9) rotate(334deg);
     z-index: -2;
     filter: blur(-1px);
@@ -107,7 +107,7 @@
 .svg:nth-child(6) {
     left: 62%;
     animation: raise6 8s linear infinite;
-    animation-delay: -2s;
+    animation-delay: 1s;
     transform: scale(1.2) rotate(260deg);
     z-index: -1;
     filter: blur(0px);
@@ -121,7 +121,7 @@
 .svg:nth-child(7) {
     left: -7%;
     animation: raise7 17s linear infinite;
-    animation-delay: -2s;
+    animation-delay: -1s;
     transform: scale(1.5) rotate(354deg);
     z-index: 0;
     filter: blur(1px);
@@ -135,7 +135,7 @@
 .svg:nth-child(8) {
     left: 98%;
     animation: raise8 7s linear infinite;
-    animation-delay: -4s;
+    animation-delay: 1s;
     transform: scale(1.8) rotate(14deg);
     z-index: 1;
     filter: blur(2px);
@@ -150,7 +150,7 @@
 .svg:nth-child(9) {
     left: 20%;
     animation: raise9 7s linear infinite;
-    animation-delay: 0s;
+    animation-delay: 2s;
     transform: scale(2.1) rotate(101deg);
     z-index: 2;
     filter: blur(3px);
@@ -164,7 +164,7 @@
 .svg:nth-child(10) {
     left: 49%;
     animation: raise10 12s linear infinite;
-    animation-delay: -2s;
+    animation-delay: 2s;
     transform: scale(2.4) rotate(219deg);
     z-index: 3;
     filter: blur(4px);
