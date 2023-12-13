@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.82809a87.css",
-    "main.js": "/static/js/main.b41ebbf7.js",
+    "main.css": "/static/css/main.c5954208.css",
+    "main.js": "/static/js/main.d7ae8755.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/HarshChaudhari.png": "/static/media/HarshChaudhari.56448186d38f47aefc8a.png",
     "static/media/PCUI.svg": "/static/media/PCUI.546617719b7b3bb35a6e8651d327ba36.svg",
@@ -56,11 +56,14 @@
     "static/media/KaustubhSaraf.webp": "/static/media/KaustubhSaraf.04ba52ebcc02b77bf756.webp",
     "static/media/figmaIcon.png": "/static/media/figmaIcon.ddaea9f7f1600efa8905.png",
     "static/media/AryanKulat.webp": "/static/media/AryanKulat.70d22cc075d44ba4801a.webp",
+    "static/media/solution-hero.webp": "/static/media/solution-hero.7fd3f90980ad8476acad.webp",
     "static/media/AayushPaigwar.webp": "/static/media/AayushPaigwar.0ef2244443e4bb36c137.webp",
     "static/media/ProductSans-Regular.woff": "/static/media/ProductSans-Regular.18c3428d2ec9ca2f0072.woff",
     "static/media/SolutionChallenge_2024.webp": "/static/media/SolutionChallenge_2024.18c106fb62cc29dad4c9.webp",
+    "static/media/winners-hero.webp": "/static/media/winners-hero.0893b4cc4ca6c78fdc5f.webp",
     "static/media/AyushChaware.webp": "/static/media/AyushChaware.09363f8a348e85c9dd42.webp",
     "static/media/certificate-image-5.jpeg": "/static/media/certificate-image-5.5d54e9eec6ecc262ab93.jpeg",
+    "static/media/un-goals.webp": "/static/media/un-goals.1416d34b2e424731acee.webp",
     "static/media/LokeshVazirani.webp": "/static/media/LokeshVazirani.648591c18a6e13e326cc.webp",
     "static/media/KalpakGoshikwar.webp": "/static/media/KalpakGoshikwar.901250e54b629595a7f6.webp",
     "static/media/ProductSans-Regular.woff2": "/static/media/ProductSans-Regular.9ccaabc5abc3920047b7.woff2",
@@ -70,12 +73,12 @@
     "static/media/PayalPande.webp": "/static/media/PayalPande.d246c1ce16218183f5d2.webp",
     "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "index.html": "/index.html",
-    "main.82809a87.css.map": "/static/css/main.82809a87.css.map",
-    "main.b41ebbf7.js.map": "/static/js/main.b41ebbf7.js.map",
+    "main.c5954208.css.map": "/static/css/main.c5954208.css.map",
+    "main.d7ae8755.js.map": "/static/js/main.d7ae8755.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82809a87.css",
-    "static/js/main.b41ebbf7.js"
+    "static/css/main.c5954208.css",
+    "static/js/main.d7ae8755.js"
   ]
 }
