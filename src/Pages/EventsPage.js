@@ -45,6 +45,12 @@ const EventsPage = () => {
             >
               Register Now
             </a>
+            <a
+              href="/events/solution-challenge"
+              className="about-btn mx-2 bg-transparent"
+            >
+              Learn More
+            </a>
             {/* <div className="text-center mx-auto p-3 py-8">
               <a
                 href="https://gdsc.community.dev/events/details/developer-student-clubs-gh-raisoni-college-of-engineering-nagpur-presents-green-flag-to-google-solution-challenge-2024/"

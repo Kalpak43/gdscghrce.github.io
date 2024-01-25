@@ -1,4 +1,4 @@
-import { FaLinkedin, FaTwitter, FaYoutube, FaXTwitter, FaInstagram } from "react-icons/fa6";
+import { FaLinkedin, FaDiscord, FaYoutube, FaXTwitter, FaInstagram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -41,13 +41,13 @@ const Footer = () => {
               >
                 <FaInstagram className="text-xl text-pink-500" />
               </a>
-              {/* <a
-                href="/"
+              <a
+                href="https://discord.com/invite/q5yUfBFkSV"
                 className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
                 <FaDiscord className="text-xl text-purple-500" />
-              </a> */}
+              </a>
             </div>
           </div>
           <div className="w-full lg:w-6/12 px-4">
@@ -123,7 +123,7 @@ const Footer = () => {
               </a>
             </span>
             <div className="text-sm text-blueGray-500 font-semibold py-1">
-              Copyright © <span id="get-current-year">2023 </span>
+              Copyright © <span id="get-current-year">2023-24 </span>
               <a
                 href="https://www.creative-tim.com?ref=njs-profile"
                 className="text-blueGray-500 hover:text-blueGray-800"

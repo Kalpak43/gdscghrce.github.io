@@ -151,7 +151,7 @@ export default function Footer() {
               </a>
             </span>
             <div className="text-sm text-blueGray-500 font-semibold py-1">
-              Copyright © <span id="get-current-year">2023 </span>
+              Copyright © <span id="get-current-year">2023-24 </span>
               <a
                 href="https://www.creative-tim.com?ref=njs-profile"
                 className="text-blueGray-500 hover:text-blueGray-800"

@@ -110,7 +110,7 @@ export default function Navbar() {
               ></path>
             </svg>
           </a>
-          <small>GHRCE</small>
+          <small className="font-bold">GHRCE</small>
         </span>
         <div className="pos navB" id="navB">
           <label htmlFor="check">

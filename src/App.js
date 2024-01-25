@@ -1,14 +1,12 @@
 import "./App.css";
-import { BrowserRouter, RouterProvider, createBrowserRouter, useLocation } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import ErrorPage from "./Pages/ErrorPage";
 import TeamPage from "./Pages/TeamPage";
 import EventsPage from "./Pages/EventsPage";
-import Navbar from "./Components/Navbar";
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "./Components/Footer";
 import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
 import FigmaEvent from "./Pages/figma-lifestyle/FIgmaEvent";
@@ -21,6 +19,7 @@ import CloudStudyJam from "./Pages/EventCertificates/CloudStudyJam";
 import CloudStudyJamVolunteer from "./Pages/EventCertificates/CloudStudyJamVolunteer";
 import HacktoberfestVolunteer from "./Pages/EventCertificates/HacktoberfestVolunteer";
 import CoreConfluenceVolunteer from "./Pages/EventCertificates/CoreConfluenceVolunteer";
+import SolutionChallenge from "./Pages/solution-challenge/SolutionChallenge";
 
 function App() {
 
@@ -49,6 +48,10 @@ function App() {
     {
       path: "/events/figma-lifestyle",
       element: <FigmaEvent />
+    },
+    {
+      path: "/events/solution-challenge",
+      element: <SolutionChallenge />
     },
     {
       path: "/events/figma-lifestyle/certificate/:refID",

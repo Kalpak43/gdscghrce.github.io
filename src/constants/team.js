@@ -15,10 +15,13 @@ import kaustubhImg from "../Images/members/KaustubhSaraf.webp"
 import ayushImg from "../Images/members/AyushChaware.webp" 
 
 import aayushImg from "../Images/members/AayushPaigwar.webp"
+import SahilImg from "../Images/members/SahilBanswani.jpeg"
 
 import harshImg from "../Images/members/HarshChaudhari.png"
 import rutujaImg from "../Images/members/RutujaBalpande.webp"
 import shreyashImg from "../Images/members/ShreyashBhisekar.png"
+import princeImg from "../Images/members/PrinceMathukiya.jpeg"
+import sakshiImg from "../Images/members/SakshiMoharkar.jpeg"
 
 import lokeshImg from "../Images/members/LokeshVazirani.webp"
 import kartikImg from "../Images/members/KartikGile.png"
@@ -46,12 +49,15 @@ const team = [
             [ayushImg, "Ayush Chaware", "Technical Co-Lead", "https://www.linkedin.com/in/ayush-sanjay-chaware-50888a222/"]
         ],
         "flutter" : [
-            [aayushImg, "Aayush Paigwar", "Flutter Lead", "https://www.linkedin.com/in/aayush-paigwar-457946225/"]
+            [aayushImg, "Aayush Paigwar", "Flutter Lead", "https://www.linkedin.com/in/aayush-paigwar-457946225/"],
+            [SahilImg, "Sahil Banswani", "Flutter Co-Lead", "https://www.linkedin.com/in/sahil-banswani-1553ab233/"]
         ],
         "design" : [
             [harshImg, "Harsh Chaudhari", "Design Lead", "https://www.linkedin.com/in/harshschaudhari/"],
             [rutujaImg, "Rutuja Balpande", "Design Co-Lead", "https://www.linkedin.com/in/rutuja-balpande-381110250/"],
-            [shreyashImg, "Shreyash Bhisekar", "Design Volunteer", "https://www.linkedin.com/in/shreyash-bhisekar-617b5926b/"]
+            [shreyashImg, "Shreyash Bhisekar", "Design Volunteer", "https://www.linkedin.com/in/shreyash-bhisekar-617b5926b/"],
+            [princeImg, "Prince Mathukiya", "Design Volunteer", "https://www.linkedin.com/in/princemathukiya/"],
+            [sakshiImg, "Sakshi Moharkar", "Design Volunteer", "https://www.linkedin.com/in/sakshi-moharkar-836100252/"]
         ],
         "dsa" : [
             [lokeshImg, "Lokesh Vazirani", "DSA Lead", "https://www.linkedin.com/in/lokesh-vazirani/"],
