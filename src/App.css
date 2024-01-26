@@ -17,6 +17,8 @@ html {
   --dsc-logo-blue: #4285f4;
   --dsc-logo-yellow: #f5b400;
   --dsc-logo-green: #0f9d58;
+  --logo-font-color: #676d74;
+  --box-shadow-color: rgba(0, 0, 0, 0.2);
 
   --accordian-bg: #ffffff;
   --btn-text: #f2f2f2;
@@ -31,6 +33,8 @@ html {
   --dsc-logo-blue: #fff;
   --dsc-logo-yellow: #fff;
   --dsc-logo-green: #fff;
+  --logo-font-color: #fff;
+  --box-shadow-color: rgba(255, 255, 255, 0.2);
 
   --accordian-bg: #34353c;
   --btn-text: #222222;
@@ -48,14 +52,23 @@ html {
   z-index: 999;
 }
 
-.Background, .Certificate-Page {
+.Background,
+.Certificate-Page {
   background-color: var(--bg-color);
 }
 
 /* HEADER SECTION*/
 
 header {
+  box-shadow: 2px 2px 10px var(--box-shadow-color);
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+
+  position: sticky;
   z-index: 999;
+  top: 0;
+
+  background-color: var(--bg-color);
 }
 
 /* Logo Styles */
@@ -78,54 +91,50 @@ header {
   fill: var(--dsc-logo-blue);
   transition: all 0.5s ease-in-out;
 }
+
+.logo {
+  color: var(--logo-font-color);
+}
 /* End Logo */
 
 /* Navigation Options and Hamburger */
-.navB {
-  z-index: 999;
-  --border: 3px;
-  --gap: 5px;
-  --offset: 10px;
-  --_s: var(--offset);
 
-  border-radius: 50%;
-  cursor: pointer;
-  padding: 5px;
-  border: var(--offset) solid #0000;
-
-  --_m: radial-gradient(
-    50% 50%,
-    #000 calc(100% - var(--offset)),
-    #0000 calc(100% - var(--border))
-  );
-
-  -webkit-mask: var(--_m);
-  mask: var(--_m);
-  --_g: #0000 calc(99% - var(--border)),
-    var(--google-red) calc(100% - var(--border)) 99%, #0000;
-  --_h: #0000 calc(99% - var(--border)),
-    var(--google-blue) calc(100% - var(--border)) 99%, #0000;
-  --_i: #0000 calc(99% - var(--border)),
-    var(--google-green) calc(100% - var(--border)) 99%, #0000;
-  --_j: #0000 calc(99% - var(--border)),
-    var(--google-yellow) calc(100% - var(--border)) 99%, #0000;
-  --_r: 100% 100% at;
-
-  background: radial-gradient(var(--_r) 0 0, var(--_g)) calc(100% + var(--_s))
-      calc(100% + var(--_s)),
-    radial-gradient(var(--_r) 100% 0, var(--_h)) calc(0% - var(--_s))
-      calc(100% + var(--_s)),
-    radial-gradient(var(--_r) 0 100%, var(--_i)) calc(100% + var(--_s))
-      calc(0% - var(--_s)),
-    radial-gradient(var(--_r) 100% 100%, var(--_j)) calc(0% - var(--_s))
-      calc(0% - var(--_s));
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
+.menu {
+  font-size: 1.2rem;
 }
 
-.navB:hover {
-  --_s: 0px;
+header .options {
+  transition: right 0.5s ease-in-out;
+  background-color: var(--bg-color);
+}
+
+.nav-links {
+  color: #676d74;
+}
+
+.nav-links:hover,
+.menu li > *:not(ul):not(.menu-title):not(details).active,
+.menu li > *:not(ul):not(.menu-title):not(details):active {
+  background-color: transparent;
+  color: var(--default-font-color);
+}
+
+@media screen and (max-width: 768px) {
+  header .options {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    /* z-index: -999; */
+
+    box-shadow: 2px 8px 10px var(--box-shadow-color);
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+.navB {
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .navB label {
@@ -177,28 +186,6 @@ header {
   width: 50%;
   transform: translate(-17px, -7px) rotatez(-45deg);
 }
-
-#opt1 {
-  background-color: var(--bg-color);
-}
-
-#opt1 ul {
-  opacity: 0;
-  transform: translateX(50px);
-  transition: all 0.5s ease-in;
-}
-
-#opt1 ul li:hover {
-  scale: 1.1;
-  transition: all 0.2s ease-in;
-}
-
-#opt1,
-#opt2 {
-  width: 0;
-  transition: all 0.5s ease-in-out;
-}
-
 /* end Navigation */
 
 /* END HEADER */
@@ -272,7 +259,6 @@ header {
     height: fit-content;
   }
 }
-
 
 /* Hero Animated Image */
 .post-header {
@@ -483,7 +469,6 @@ header {
 }
 /* End Events */
 
-
 /* Contact Us */
 .Contact {
   background-color: transparent;
@@ -493,9 +478,6 @@ header {
 
 /* END HOMEPAGE */
 
-
-
-
 /* ABOUTPAGE SECTION */
 .que {
   /* background-color: var(--accordian-bg); */
@@ -503,8 +485,6 @@ header {
   border-radius: 0;
 }
 /* END ABOUTPAGE */
-
-
 
 .overlay {
   height: 100%;
@@ -514,7 +494,6 @@ header {
   left: 0;
   background-color: #00000058;
 }
-
 
 /* TEAMPAGE SECTION */
 .member-card {
@@ -675,10 +654,6 @@ header {
 
 /* END TEAMPAGE */
 
-
-
-
-
 /* EVENTSPAGE SECTION */
 .EventsPage .team-header {
   background-image: url(./Images/event/eventBanner.jpg);
@@ -699,19 +674,17 @@ header {
   background-color: var(--dsc-logo-red);
 }
 
-.ongoing-events .about-btn:nth-child(2){
+.ongoing-events .about-btn:nth-child(2) {
   background-color: transparent;
   color: var(--default-font-color);
   border: 2px solid var(--dsc-logo-red);
 }
 
-.past-events .mcard{
+.past-events .mcard {
   min-height: 400px;
 }
 
 /* END EVENTSPAGE */
-
-
 
 /* FOOTER SECTION */
 .Footer {
@@ -719,20 +692,11 @@ header {
 }
 /* END FOOTER */
 
-
-
-
-
-
-
-
-
-
 /* Certificate Page */
 .Certificate-Page .grid {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(4, 1fr);
-  
+
   max-width: 100%;
   /* max-width: 50; */
 }
@@ -757,17 +721,16 @@ header {
   border-top: 0;
 }
 
-.Certificate-Page .grid p:nth-child(1), .Certificate-Page .grid p:nth-child(2) {
+.Certificate-Page .grid p:nth-child(1),
+.Certificate-Page .grid p:nth-child(2) {
   border-top: 2px solid var(--default-font-color);
 }
 
 @media screen and (max-width: 600px) {
-
   .Certificate-Page .grid p {
     font-size: 1rem;
   }
 }
-
 
 .ErrorPage {
   background-color: var(--bg-color);

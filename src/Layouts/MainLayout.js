@@ -1,18 +1,13 @@
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-import { FaSun, FaMoon } from "react-icons/fa6";
-import { useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
 
-
-export default function MainLayout (props) {
-
-    let page = props.page()
-
-    return (
-        <>
-            <Navbar />
-            {page}
-            <Footer />
-        </>
-    )
+export default function MainLayout() {
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
+  );
 }

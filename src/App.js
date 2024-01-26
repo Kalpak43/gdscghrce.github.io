@@ -1,5 +1,10 @@
 import "./App.css";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  Route,
+  BrowserRouter as Router,
+  RouterProvider,
+  Routes,
+} from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import ErrorPage from "./Pages/ErrorPage";
 import TeamPage from "./Pages/TeamPage";
@@ -22,61 +27,60 @@ import CoreConfluenceVolunteer from "./Pages/EventCertificates/CoreConfluenceVol
 import SolutionChallenge from "./Pages/solution-challenge/SolutionChallenge";
 
 function App() {
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/",
+  //     element: <MainLayout page={HomePage} />,
+  //     errorElement: <MainLayout page={ErrorPage} />,
+  //   },
+  //   {
+  //     path: "/about",
+  //     element: <MainLayout page={AboutPage} />,
+  //   },
+  //   {
+  //     path: "/team",
+  //     element: <MainLayout page={TeamPage} />,
+  //   },
+  //   {
+  //     path: "/events",
+  //     element: <MainLayout page={EventsPage} />,
+  //   },
+  //   {
+  //     path: "/contactus",
+  //     element: <MainLayout page={ContactPage} />,
+  //   },
+  //   {
+  //     path: "/events/figma-lifestyle",
+  //     element: <FigmaEvent />
+  //   },
+  //   {
+  //     path: "/events/solution-challenge",
+  //     element: <SolutionChallenge />
+  //   },
+  //   {
+  //     path: "/events/figma-lifestyle/certificate/:refID",
+  //     element: <MainLayout page={EventCertificate} />
+  //   },
+  //   {
+  //     path: "/events/cloud-study-jams/certificate/:refID",
+  //     element: <MainLayout page={CloudStudyJam} />
+  //   },
+  //   {
+  //     path: "/events/cloud-study-jams/volunteer-certificate/:refID",
+  //     element: <MainLayout page={CloudStudyJamVolunteer} />
+  //   },
+  //   {
+  //     path: "/events/hacktoberfest/volunteer-certificate/:refID",
+  //     element: <MainLayout page={HacktoberfestVolunteer} />
+  //   },
+  //   {
+  //     path: "/events/core-confluence/volunteer-certificate/:refID",
+  //     element: <MainLayout page={CoreConfluenceVolunteer} />
+  //   },
+  // ]);
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <MainLayout page={HomePage} />,
-      errorElement: <MainLayout page={ErrorPage} />,
-    },
-    {
-      path: "/about",
-      element: <MainLayout page={AboutPage} />,
-    },
-    {
-      path: "/team",
-      element: <MainLayout page={TeamPage} />,
-    },
-    {
-      path: "/events",
-      element: <MainLayout page={EventsPage} />,
-    },
-    {
-      path: "/contactus",
-      element: <MainLayout page={ContactPage} />,
-    },
-    {
-      path: "/events/figma-lifestyle",
-      element: <FigmaEvent />
-    },
-    {
-      path: "/events/solution-challenge",
-      element: <SolutionChallenge />
-    },
-    {
-      path: "/events/figma-lifestyle/certificate/:refID",
-      element: <MainLayout page={EventCertificate} />
-    },
-    {
-      path: "/events/cloud-study-jams/certificate/:refID",
-      element: <MainLayout page={CloudStudyJam} />
-    },
-    {
-      path: "/events/cloud-study-jams/volunteer-certificate/:refID",
-      element: <MainLayout page={CloudStudyJamVolunteer} />
-    },
-    {
-      path: "/events/hacktoberfest/volunteer-certificate/:refID",
-      element: <MainLayout page={HacktoberfestVolunteer} />
-    },
-    {
-      path: "/events/core-confluence/volunteer-certificate/:refID",
-      element: <MainLayout page={CoreConfluenceVolunteer} />
-    },
-  ]);
-  
   const storedDarkMode = localStorage.getItem("DARK_MODE");
-  const [darkMode, setDarkMode] = useState(storedDarkMode === 'true');
+  const [darkMode, setDarkMode] = useState(storedDarkMode === "true");
 
   useEffect(() => {
     localStorage.setItem("DARK_MODE", darkMode);
@@ -86,17 +90,46 @@ function App() {
     AOS.init({ duration: 1500, once: true });
   }, []);
 
-  
-
   return (
     <div className={`App relative ${darkMode ? "dark-theme" : "light-theme"}`}>
       <Helmet>
         <title>GDSC GHRCE</title>
-        <meta name="description" content="GDSC GHRCE is a community of students passionate about technology and development. It is a student-led initiative supported by Google Developers, aimed at providing a platform for students to learn, collaborate, and build projects using various Google technologies." data-react-helmet={true}/>
-        {/* <meta name="theme-color" content="#008f68" /> */}
+        <meta
+          name="description"
+          content="GDSC GHRCE is a community of students passionate about technology and development. It is a student-led initiative supported by Google Developers, aimed at providing a platform for students to learn, collaborate, and build projects using various Google technologies."
+          data-react-helmet={true}
+        />
+        <meta name="theme-color" content="#008f68" />
       </Helmet>
-      <RouterProvider router={router} />
-      <button className="switch border-2 h-12 aspect-square rounded-full fixed bottom-0 right-0 flex justify-center items-center m-4 mx-8" onClick={() => setDarkMode(!darkMode)}>{darkMode ? <FaSun className="text-2xl" /> : <FaMoon className="text-2xl" />}</button>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/team" element={<TeamPage />} />
+            <Route path="/events" element={<EventsPage />} />
+            <Route path="/contactus" element={<ContactPage />} />
+            <Route path="/events/figma-lifestyle/certificate/:refID" element={<EventCertificate />} />
+            <Route path="/events/cloud-study-jams/certificate/:refID" element={<CloudStudyJam />} />
+            <Route path="/events/cloud-study-jams/volunteer-certificate/:refID" element={<CloudStudyJamVolunteer />} />
+            <Route path="/events/hacktoberfest/volunteer-certificate/:refID" element={<HacktoberfestVolunteer />} />
+            <Route path="/events/core-confluence/volunteer-certificate/:refID" element={<CoreConfluenceVolunteer />} />
+          </Route>
+
+          <Route path="/events/figma-lifestyle" element={<FigmaEvent />} />
+          <Route path="/events/solution-challenge" element={<SolutionChallenge />} />
+        </Routes>
+      </Router>
+      <button
+        className="switch border-2 h-12 aspect-square rounded-full fixed bottom-0 right-0 flex justify-center items-center m-4 mx-8"
+        onClick={() => setDarkMode(!darkMode)}
+      >
+        {darkMode ? (
+          <FaSun className="text-2xl" />
+        ) : (
+          <FaMoon className="text-2xl" />
+        )}
+      </button>
     </div>
   );
 }
