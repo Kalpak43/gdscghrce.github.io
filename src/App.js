@@ -25,6 +25,7 @@ import CloudStudyJamVolunteer from "./Pages/EventCertificates/CloudStudyJamVolun
 import HacktoberfestVolunteer from "./Pages/EventCertificates/HacktoberfestVolunteer";
 import CoreConfluenceVolunteer from "./Pages/EventCertificates/CoreConfluenceVolunteer";
 import SolutionChallenge from "./Pages/solution-challenge/SolutionChallenge";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   // const router = createBrowserRouter([
@@ -102,13 +103,14 @@ function App() {
         <meta name="theme-color" content="#008f68" />
       </Helmet>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<MainLayout />}>
             <Route index element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/team" element={<TeamPage />} />
             <Route path="/events" element={<EventsPage />} />
-            <Route path="/contactus" element={<ContactPage />} />
+            <Route path="/contact-us" element={<ContactPage />} />
             <Route path="/events/figma-lifestyle/certificate/:refID" element={<EventCertificate />} />
             <Route path="/events/cloud-study-jams/certificate/:refID" element={<CloudStudyJam />} />
             <Route path="/events/cloud-study-jams/volunteer-certificate/:refID" element={<CloudStudyJamVolunteer />} />

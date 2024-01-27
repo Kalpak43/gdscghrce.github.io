@@ -32,7 +32,7 @@
 
 /* GENERAL */
 
-section {
+.figmaEvent section {
   padding: 3.6rem;
   overflow-x: hidden;
   /* background-color: var(--sec-bg-color); */
@@ -40,7 +40,7 @@ section {
   place-content: center; */
 }
 
-section h2 {
+.figmaEvent section h2 {
   font-size: 3.6rem;
   text-align: center;
   font-weight: bold;
@@ -60,7 +60,7 @@ video {
   }
 
 @media screen and (max-width: 768px) {
-  section {
+  .figmaEvent section {
     padding-inline: 1rem;
   }
   video {
@@ -822,53 +822,8 @@ video {
   }
 }
 
-.carousel-root {
-  padding: 1rem;
-  max-width: 500px;
-}
-
-.slider-wrapper ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.carousel-status {
-  display: none;
-}
-
-.carousel:nth-child(2) {
-  display: none;
-}
-
-.carousel .slide {
-  text-align: justify !important; 
-}
-
-.carousel .slide img {
+.figmaEvent .carousel .slide img {
   border: 2px solid var(--figma-purple) !important;
-}
-
-.carousel .round {
-  width: auto !important;
-  /* border-width: 2px !important; */
-}
-
-.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
-  border-top: 10px solid transparent !important;
-  border-bottom: 10px solid transparent !important;
-}
-
-.carousel .social-button img {
-  border: 0 !important;
-}
-
-.carousel .control-next.control-arrow:before {
-  border-left: 8px solid var(--sec-font-color) !important;
-}
-
-.carousel .control-prev.control-arrow:before {
-  border-right: 8px solid var(--sec-font-color) !important;
 }
 
 /* END SPEAKERS */

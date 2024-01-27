@@ -55,7 +55,7 @@ export default function Navbar() {
                   d="M174.92,111.56a15.06,15.06,0,0,0,7.55-28.11l-52.9-30.54A15.06,15.06,0,0,0,114.5,79l52.9,30.54A15,15,0,0,0,174.92,111.56Z"
                 ></path>
               </svg>
-              <div className="sm:flex hidden flex-col gap-0 relative normal-case font-normal">
+              <div className="logo-text flex-col gap-0 relative normal-case font-normal">
                 <p className=" text-lg">Gooogle Developer Student Clubs</p>
                 <small className="text-[85%] absolute top-[80%]">
                   G.H. Raisoni College of Engineering, Nagpur
@@ -64,7 +64,7 @@ export default function Navbar() {
             </span>
           </a>
         </div>
-        <div className="pos navB md:hidden" id="navB">
+        <div className="pos navB" id="navB">
           <label htmlFor="check">
             <input type="checkbox" id="check" onClick={handleClick} />
             <span></span>
