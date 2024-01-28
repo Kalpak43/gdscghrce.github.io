@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d4da54b.css",
-    "main.js": "/static/js/main.5793dbbb.js",
+    "main.css": "/static/css/main.3131c6a4.css",
+    "main.js": "/static/js/main.46ec84f3.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/HarshChaudhari.png": "/static/media/HarshChaudhari.56448186d38f47aefc8a.png",
     "static/media/PCUI.svg": "/static/media/PCUI.546617719b7b3bb35a6e8651d327ba36.svg",
@@ -14,20 +14,18 @@
     "static/media/img-9.jpeg": "/static/media/img-9.441dd29e4be6615964de.jpeg",
     "static/media/PrathamChaudhary.png": "/static/media/PrathamChaudhary.4ce180614c83703a5288.png",
     "static/media/ShreyashBhisekar.png": "/static/media/ShreyashBhisekar.c2a444714bde09507d9a.png",
-    "static/media/event3.jpeg": "/static/media/event3.4c6e7788b1f39bab4f80.jpeg",
     "static/media/img-2.jpeg": "/static/media/img-2.7c84b86f4f74b03df1bc.jpeg",
     "static/media/PhoneUI.svg": "/static/media/PhoneUI.07667af9fc25a39df357627467411a1d.svg",
     "static/media/RohitPandilwar.png": "/static/media/RohitPandilwar.d8302a062ffc1feff395.png",
-    "static/media/WhatsApp Image 2023-08-27 at 6.11.51 PM (1).jpeg": "/static/media/WhatsApp Image 2023-08-27 at 6.11.51 PM (1).afae5e294f04ccf89eeb.jpeg",
     "static/media/eventBanner.jpg": "/static/media/eventBanner.a946e38d24909e6b1eb0.jpg",
     "static/media/certificate-image-1.jpeg": "/static/media/certificate-image-1.bebc45874b6ddfa27bbf.jpeg",
     "static/media/SumedhaTambulkar.png": "/static/media/SumedhaTambulkar.6cd379b18cac3568ad7e.png",
     "static/media/SwarnimChandve.png": "/static/media/SwarnimChandve.efe038a0293e9891c87a.png",
     "static/media/AmanKhapre.png": "/static/media/AmanKhapre.fa7a0e3548c07e17a593.png",
-    "static/media/event1.jpeg": "/static/media/event1.c661ea57d259aa859ea0.jpeg",
     "static/media/KartikGile.png": "/static/media/KartikGile.6d518f753d5cb6287cea.png",
     "static/media/FlutterNagpur_logo.png": "/static/media/FlutterNagpur_logo.4a3d5a2764b26791ecf4.png",
     "static/media/event2.jpg": "/static/media/event2.62da1f21c017857e09c3.jpg",
+    "static/media/WhatsApp Image 2023-08-27 at 6.11.51 PM.jpeg": "/static/media/WhatsApp Image 2023-08-27 at 6.11.51 PM.eed7195b1c9ad5bae346.jpeg",
     "static/media/team.jpeg": "/static/media/team.8cb5c555fba7b79ebe7d.jpeg",
     "static/media/IEEE_CIS_GHRCElogo.png": "/static/media/IEEE_CIS_GHRCElogo.39793d7e6ee394cbfa5d.png",
     "static/media/KrutikaNavghare.png": "/static/media/KrutikaNavghare.b38f1cf8efc203eae977.png",
@@ -35,7 +33,6 @@
     "static/media/gdsc_ghrce_logo_full.png": "/static/media/gdsc_ghrce_logo_full.92e7433a5302691d173d.png",
     "static/media/certificate-image-2.jpeg": "/static/media/certificate-image-2.3b35d78ad7886b148ba7.jpeg",
     "static/media/figmaLifestyle_Logo(BG_white).jpeg": "/static/media/figmaLifestyle_Logo(BG_white).cdf46dde898e4a54c6d7.jpeg",
-    "static/media/Upcoming_evens.jpg": "/static/media/Upcoming_evens.ceecda304d24a86e6844.jpg",
     "static/media/Cinderbay_logo.png": "/static/media/Cinderbay_logo.9d0f90cf02d2dd00f80a.png",
     "static/media/img-5.jpeg": "/static/media/img-5.aa9910711a51629fdcd8.jpeg",
     "static/media/img-6.jpeg": "/static/media/img-6.17debc3d6e09ab95980c.jpeg",
@@ -44,6 +41,8 @@
     "static/media/img-7.jpeg": "/static/media/img-7.db5de3650f79b65a50aa.jpeg",
     "static/media/ShivamJoshi.jpeg": "/static/media/ShivamJoshi.5d1ce4fd8902710f8158.jpeg",
     "static/media/certificate-image-6.jpeg": "/static/media/certificate-image-6.633c22ac9bd216784de7.jpeg",
+    "static/media/Pandas_9D3I4Kp.webp": "/static/media/Pandas_9D3I4Kp.f0aa81bdd65660c1ae1e.webp",
+    "static/media/dummy.jpg": "/static/media/dummy.3d5aa1c07cbbfaf0dd33.jpg",
     "static/media/SahilBanswani.jpeg": "/static/media/SahilBanswani.d6ed5b7617fc1b8584a7.jpeg",
     "static/media/PrinceMathukiya.jpeg": "/static/media/PrinceMathukiya.7929e2fe7c06cbb214b7.jpeg",
     "static/media/Flat iPhone.png": "/static/media/Flat iPhone.7de6243d862940b7983d.png",
@@ -76,12 +75,12 @@
     "static/media/PayalPande.webp": "/static/media/PayalPande.d246c1ce16218183f5d2.webp",
     "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "index.html": "/index.html",
-    "main.4d4da54b.css.map": "/static/css/main.4d4da54b.css.map",
-    "main.5793dbbb.js.map": "/static/js/main.5793dbbb.js.map",
+    "main.3131c6a4.css.map": "/static/css/main.3131c6a4.css.map",
+    "main.46ec84f3.js.map": "/static/js/main.46ec84f3.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d4da54b.css",
-    "static/js/main.5793dbbb.js"
+    "static/css/main.3131c6a4.css",
+    "static/js/main.46ec84f3.js"
   ]
 }
