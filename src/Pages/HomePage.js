@@ -5,11 +5,11 @@ import UpEvent from "../Components/HomePage/UpEvent"
 import Contact from "../Components/HomePage/Contact"
 import Backgroound from "../Components/Background"
 
-const HomePage = () => {
+const HomePage = (props) => {
 
     return(
         <div className="HomePage">
-            <Hero />
+            <Hero theme={props.theme} />
             <About />
             <Team />   
             <UpEvent />

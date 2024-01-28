@@ -1,14 +1,12 @@
-import { useEffect, useState } from "react";
-import img1 from "../../Images/event/event1.jpeg";
-import img2 from "../../Images/event/WhatsApp Image 2023-08-27 at 6.11.51 PM (1).jpeg";
-import img3 from "../../Images/event/event2.jpg";
-import img4 from "../../Images/event/event3.jpeg";
 import { Link } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import dummmy from "../../Images/dummy.jpg";
+import img1 from "../../Images/figma-lifestyle/img-2.jpeg";
+import img2 from "../../Images/figma-lifestyle/img-9.jpeg";
+import img3 from "../../Images/event/event2.jpg";
+import img4 from "../../Images/event/WhatsApp Image 2023-08-27 at 6.11.51 PM.jpeg";
 
 const UpEvent = () => {
-  const imgArr = [img1, img2, img3, img4];
 
   return (
     <section className="Events">
@@ -38,7 +36,10 @@ const UpEvent = () => {
             infiniteLoop
             interval={4000}
           >
-            <img src={dummmy} alt="" />
+            <img src={img1} alt="figma lifestyle-1" />
+            <img src={img2} alt="figma lifestyle-2" />
+            <img src={img3} alt="coreconfluence-1" />
+            <img src={img4} alt="coreconfluence-2" />
           </Carousel>
         </div>
       </div>

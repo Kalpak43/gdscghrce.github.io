@@ -28,57 +28,6 @@ import SolutionChallenge from "./Pages/solution-challenge/SolutionChallenge";
 import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
-  // const router = createBrowserRouter([
-  //   {
-  //     path: "/",
-  //     element: <MainLayout page={HomePage} />,
-  //     errorElement: <MainLayout page={ErrorPage} />,
-  //   },
-  //   {
-  //     path: "/about",
-  //     element: <MainLayout page={AboutPage} />,
-  //   },
-  //   {
-  //     path: "/team",
-  //     element: <MainLayout page={TeamPage} />,
-  //   },
-  //   {
-  //     path: "/events",
-  //     element: <MainLayout page={EventsPage} />,
-  //   },
-  //   {
-  //     path: "/contactus",
-  //     element: <MainLayout page={ContactPage} />,
-  //   },
-  //   {
-  //     path: "/events/figma-lifestyle",
-  //     element: <FigmaEvent />
-  //   },
-  //   {
-  //     path: "/events/solution-challenge",
-  //     element: <SolutionChallenge />
-  //   },
-  //   {
-  //     path: "/events/figma-lifestyle/certificate/:refID",
-  //     element: <MainLayout page={EventCertificate} />
-  //   },
-  //   {
-  //     path: "/events/cloud-study-jams/certificate/:refID",
-  //     element: <MainLayout page={CloudStudyJam} />
-  //   },
-  //   {
-  //     path: "/events/cloud-study-jams/volunteer-certificate/:refID",
-  //     element: <MainLayout page={CloudStudyJamVolunteer} />
-  //   },
-  //   {
-  //     path: "/events/hacktoberfest/volunteer-certificate/:refID",
-  //     element: <MainLayout page={HacktoberfestVolunteer} />
-  //   },
-  //   {
-  //     path: "/events/core-confluence/volunteer-certificate/:refID",
-  //     element: <MainLayout page={CoreConfluenceVolunteer} />
-  //   },
-  // ]);
 
   const storedDarkMode = localStorage.getItem("DARK_MODE");
   const [darkMode, setDarkMode] = useState(storedDarkMode === "true");
@@ -106,7 +55,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<MainLayout />}>
-            <Route index element={<HomePage />} />
+            <Route index element={<HomePage theme={darkMode} />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/team" element={<TeamPage />} />
             <Route path="/events" element={<EventsPage />} />

@@ -10,7 +10,7 @@ export default function ManagementTeam() {
   return (
     <div className="type-1">
       <h4 className="text-center font-bold text-2xl">Management Team</h4>
-      <div className="flex justify-center gap-16 py-4 flex-wrap">
+      <div className="mt-8 flex justify-center gap-16 py-4 flex-wrap">
 
         {managementTeam.map(x => {
           return (

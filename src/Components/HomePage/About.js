@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import dummmy from "../../Images/dummy.jpg";
+import img1 from "../../Images/figma-lifestyle/img-2.jpeg";
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
           <Link to="/about" className="btn">More</Link>
         </div>
         <div className="grid-r grid-img" data-aos="fade-in" data-aos-delay="200">
-          <img src={dummmy} alt="community" />
+        <img src={img1} alt="" />
         </div>
       </div>
     </section>

@@ -112,11 +112,11 @@ const Footer = () => {
                     d="M69.43,142.11A15.07,15.07,0,0,0,77,114L24.07,83.45A15.06,15.06,0,0,0,9,109.54l52.9,30.54A15,15,0,0,0,69.43,142.11Z"
                   ></path>
                   <path
-                    className="Logo_logoGreenPart__LnIju"
+                    className="Logo_logoYellowPart__AVkWI "
                     d="M122.05,142.11a15,15,0,0,0,7.52-2l52.9-30.54L145.59,96.05,114.5,114a15.07,15.07,0,0,0,7.55,28.12Z"
                   ></path>
                   <path
-                    className="Logo_logoYellowPart__AVkWI"
+                    className="Logo_logoGreenPart__LnIju "
                     d="M174.92,111.56a15.06,15.06,0,0,0,7.55-28.11l-52.9-30.54A15.06,15.06,0,0,0,114.5,79l52.9,30.54A15,15,0,0,0,174.92,111.56Z"
                   ></path>
                 </svg>

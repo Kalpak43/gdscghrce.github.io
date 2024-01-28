@@ -24,6 +24,8 @@ html {
   --btn-text: #fff;
 
   --badges-hover-text: #fff;
+
+  --monitor-bg-color: #f1f3f4;
 }
 
 .dark-theme {
@@ -35,11 +37,13 @@ html {
   --dsc-logo-green: #fff;
   --logo-font-color: #fff;
   --box-shadow-color: rgba(255, 255, 255, 0.2);
-
+  
   --accordian-bg: #34353c;
   --btn-text: #222222;
-
+  
   --badges-hover-text: #000;
+
+  --monitor-bg-color: #34353c;
 }
 
 .App {
@@ -92,6 +96,8 @@ section h2 {
 .grid-img img {
   border: 2px solid var(--default-font-color);
   border-radius: 0.5rem;
+  aspect-ratio: 16/9;
+  object-fit: cover;
 }
 
 section .btn,
@@ -181,7 +187,10 @@ header {
 header .options {
   transition: right 0.5s ease-in-out;
   background-color: var(--bg-color);
-  /* font-weight: bold; */
+}
+
+.options ul {
+  width: 100%;
 }
 
 .nav-links {
@@ -206,6 +215,12 @@ header .options {
     border-bottom-left-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
   }
+
+  .nav-links:hover,
+.menu li > *:not(ul):not(.menu-title):not(details).active,
+.menu li > *:not(ul):not(.menu-title):not(details):active {
+  background-color: var(--monitor-bg-color);
+}
 }
 
 .navB {
@@ -451,11 +466,13 @@ header .options {
   /* margin-bottom: 2.5rem; */
   width: 50%;
   aspect-ratio: 16/9;
-  background-color: #df4040;
+  background-color: var(--monitor-bg-color);
   border-radius: 0.8rem;
   border: 0.7rem solid #ffffff;
   border-bottom-width: 2rem;
   box-sizing: content-box;
+
+  transition: background-color 0.5s ease-in-out;
 }
 
 .stand {
@@ -861,7 +878,7 @@ header .options {
 .ongoing-events .mcard {
   min-height: 350px;
 }
-
+/* 
 .ongoing-events .about-btn {
   background-color: var(--dsc-logo-red);
 }
@@ -870,10 +887,16 @@ header .options {
   background-color: transparent;
   color: var(--default-font-color);
   border: 2px solid var(--dsc-logo-red);
+} */
+
+
+
+.ongoing-events .mcard ,.past-events .mcard {
+  min-height: 400px;
 }
 
-.past-events .mcard {
-  min-height: 400px;
+.ongoing-events .btn {
+  background-color: var(--dsc-logo-red);
 }
 
 /* END EVENTSPAGE */
