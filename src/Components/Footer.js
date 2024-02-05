@@ -1,4 +1,10 @@
-import { FaLinkedin, FaDiscord, FaYoutube, FaXTwitter, FaInstagram } from "react-icons/fa6";
+import {
+  FaLinkedin,
+  FaDiscord,
+  FaYoutube,
+  FaXTwitter,
+  FaInstagram,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -18,7 +24,7 @@ const Footer = () => {
                 className="bg-white shadow-lg font-normal h-10 w-10 flex items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <FaXTwitter className="text-xl text-black"/>
+                <FaXTwitter className="text-xl text-black" />
               </a>
               <a
                 href="https://www.linkedin.com/company/gdsc-ghrce/"

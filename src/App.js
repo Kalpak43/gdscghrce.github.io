@@ -41,7 +41,7 @@ function App() {
   }, []);
 
   return (
-    <div className={`App relative ${darkMode ? "dark-theme" : "light-theme"}`}>
+    <div className={`App relative Background z-0 ${darkMode ? "dark-theme" : "light-theme"}`}>
       <Helmet>
         <title>GDSC GHRCE</title>
         <meta

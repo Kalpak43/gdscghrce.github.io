@@ -875,9 +875,6 @@ header .options {
   }
 }
 
-.ongoing-events .mcard {
-  min-height: 350px;
-}
 /* 
 .ongoing-events .about-btn {
   background-color: var(--dsc-logo-red);
@@ -895,7 +892,7 @@ header .options {
   min-height: 400px;
 }
 
-.ongoing-events .btn {
+.ongoing-events .btn, .ongoing-events .btn:hover {
   background-color: var(--dsc-logo-red);
 }
 

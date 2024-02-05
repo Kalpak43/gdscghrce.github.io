@@ -23,7 +23,7 @@ const EventsPage = () => {
   const [current, setCurrent] = useState(true);
 
   return (
-    <main className="EventsPage">
+    <div className="EventsPage z-10">
       <div className="sticky top-0 left-0 z-[-1]">
         <div className="team-header pt-40 text-center relative">
           <div className="overlay"></div>
@@ -91,7 +91,7 @@ const EventsPage = () => {
           </a>
         </section>
       </div>
-    </main>
+    </div>
   );
 };
 
