@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ca4624a.css",
-    "main.js": "/static/js/main.51992b05.js",
+    "main.css": "/static/css/main.204de079.css",
+    "main.js": "/static/js/main.12754f38.js",
     "static/js/787.aefaf65b.chunk.js": "/static/js/787.aefaf65b.chunk.js",
     "static/media/HarshChaudhari.png": "/static/media/HarshChaudhari.56448186d38f47aefc8a.png",
     "static/media/PCUI.svg": "/static/media/PCUI.546617719b7b3bb35a6e8651d327ba36.svg",
-    "static/media/DivyamTembhare.jpg": "/static/media/DivyamTembhare.84f4a952afcfd900f3f3.jpg",
     "static/media/AbhilashTelrandhe.png": "/static/media/AbhilashTelrandhe.8f3045420a639d958770.png",
     "static/media/Career-Hero001.svg": "/static/media/Career-Hero001.9c236b6eadb07918736bbaf55a3e7baf.svg",
     "static/media/AmanTiwari.png": "/static/media/AmanTiwari.78db56d8e7231cc44b69.png",
@@ -75,12 +74,12 @@
     "static/media/PayalPande.webp": "/static/media/PayalPande.d246c1ce16218183f5d2.webp",
     "static/media/pranay-saraf.webp": "/static/media/pranay-saraf.c231ccc306a32af4f81f.webp",
     "index.html": "/index.html",
-    "main.6ca4624a.css.map": "/static/css/main.6ca4624a.css.map",
-    "main.51992b05.js.map": "/static/js/main.51992b05.js.map",
+    "main.204de079.css.map": "/static/css/main.204de079.css.map",
+    "main.12754f38.js.map": "/static/js/main.12754f38.js.map",
     "787.aefaf65b.chunk.js.map": "/static/js/787.aefaf65b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ca4624a.css",
-    "static/js/main.51992b05.js"
+    "static/css/main.204de079.css",
+    "static/js/main.12754f38.js"
   ]
 }
